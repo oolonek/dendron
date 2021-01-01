@@ -5,7 +5,8 @@ vaults:
 site:
     copyAssets: true
     siteHierarchies:
-        - root
+        - dendron
+        - public
     siteRootDir: docs
     siteProtocol: https
     usePrettyRefs: true
