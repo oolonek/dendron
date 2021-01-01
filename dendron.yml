@@ -12,4 +12,3 @@ site:
     siteUrl: https://github.com/oolonek/dendron
     siteProtocol: https
     usePrettyRefs: true
-    githubCname: "oolonek"
