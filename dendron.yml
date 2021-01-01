@@ -4,7 +4,7 @@ vaults:
         fsPath: vault
 site:
     copyAssets: true
-    assetsPrefix: none
+    assetsPrefix: bond
     siteHierarchies:
         - dendron
         - public
