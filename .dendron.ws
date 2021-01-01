@@ -1,1 +1,1 @@
-{"version":"dendron-cli","activationTime":1609526978902}
+{"version":"dendron-cli","activationTime":1609529030513}

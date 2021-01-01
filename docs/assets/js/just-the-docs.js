@@ -53,7 +53,7 @@ function initNav() {
 
 function initSearch() {
   var request = new XMLHttpRequest();
-  request.open('GET', 'http://localhost:8080/assets/js/search-data.json', true);
+  request.open('GET', 'https://github.com/oolonek/dendron/assets/js/search-data.json', true);
 
   request.onload = function(){
     if (request.status >= 200 && request.status < 400) {
@@ -432,7 +432,7 @@ jtd.getTheme = function() {
 
 jtd.setTheme = function(theme) {
   var cssFile = document.querySelector('[rel="stylesheet"]');
-  cssFile.setAttribute('href', 'http://localhost:8080/assets/css/just-the-docs-' + theme + '.css');
+  cssFile.setAttribute('href', 'https://github.com/oolonek/dendron/assets/css/just-the-docs-' + theme + '.css');
 }
 
 // Document ready
