@@ -9,6 +9,6 @@ site:
         - dendron
         - public
     siteRootDir: docs
-    siteUrl: https://github.com/oolonek/dendron
+    siteUrl: https://oolonek.github.io/dendron/
     siteProtocol: https
     usePrettyRefs: true
