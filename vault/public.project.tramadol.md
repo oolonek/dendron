@@ -2,10 +2,10 @@
 id: 326210a1-cb21-4d0c-8c0e-f012c733895d
 title: Tramadol
 desc: ''
-updated: 1609586255423
+updated: 1609588824705
 created: 1601466786427
 stub: false
-bibliography: [../docs/assets/library_red.bib, /Users/pma/Documents/library.bib]
+bibliography: [/Users/pma/Documents/library_formatted.bib]
 ---
 
 # Tramadol project 
@@ -33,8 +33,7 @@ Finally, preview the remainder of the paper to mentally prepare readers for its 
 
 @Gerwick2012a
 
-
-@All
+@Allard2011
 
 
 

@@ -2,7 +2,7 @@
 id: 6335feae-82eb-4555-8bc0-71dd227be49c
 title: Hormones
 desc: ''
-updated: 1603707321437
+updated: 1609600475444
 created: 1603707321437
 stub: false
 ---
@@ -17,7 +17,10 @@ We establish a list of hormones scaffolds.
 
 - Abscisic acid (ABA)
 
+```smiles
 OC(=O)\C=C(\C)/C=C/[C@@]1(O)C(C)=CC(=O)CC1(C)C
+````
+
 
 
 ClassyFy_Status_DNP | Kingdom_cf_DNP | Superclass_cf_DNP | Class_cf_DNP | Subclass_cf_DNP | Parent_Level_1_cf_DNP
