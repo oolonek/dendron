@@ -91,7 +91,7 @@ c1ccc(c(c1)C(=O)O)O
 <https://en.wikipedia.org/wiki/Salicylic_acid>
 
 ClassyFy_Status_DNP | Kingdom_cf_DNP | Superclass_cf_DNP | Class_cf_DNP | Subclass_cf_DNP | Parent_Level_1_cf_DNP | Parent_Level_2_cf_DNP | Parent_Level_3_cf_DNP
---------------------|----------------|-------------------|--------------|-----------------|-----------------------|-----------------------|----------------------P
+--------------------|----------------|-------------------|--------------|-----------------|-----------------------|-----------------------|----------------------
 Completed | Organic compounds | Benzenoids | Benzene and substituted derivatives | Benzoic acids and derivatives | Hydroxybenzoic acid derivatives | Salicylic acid and derivatives | Salicylic acids
 
 - Strigolactone 
