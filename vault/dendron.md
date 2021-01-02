@@ -2,7 +2,7 @@
 id: e86ac3ab-dbe1-47a1-bcd7-9df0d0490b40
 title: Quickstart
 desc: ''
-updated: 1605268423466
+updated: 1609619978423
 created: 1595170096361
 stub: false
 nav_order: 1
@@ -47,3 +47,22 @@ This section covers additional topics and the wider ecosystem around Dendron.
 - [ ] See and vote on what's coming next by checking out our [public roadmap](https://github.com/orgs/dendronhq/projects/1)
 - [ ] Get familiar with [editing](https://code.visualstudio.com/docs/editor/codebasics) in VS Code, the editor that Dendron is built upon
 - [ ] Stay tuned for more wilderness coming soon!
+
+## What's after wilderness  🏔️ 🦖
+
+This section will cover some of the stuff you will find on this dendron website.
+
+- [ ] Academic research material of exploratory projects around natural products, biodiversity & ecology - an [anti-marketing application](https://notes.andymatuschak.org/z4bK6LaSBRetDzuYkeCs3A8mJ8DufTbK4o6FS)
+
+- [ ] A garage, lab and workshop with [open doors](https://notes.andymatuschak.org/z21cgR9K3UcQ5a7yPsj2RUim3oM2TzdBByZu)
+
+- [ ] A ... (fill the dots) down there on the github link 👇
+
+
+
+
+
+
+
+
+
