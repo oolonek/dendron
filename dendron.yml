@@ -9,6 +9,7 @@ site:
         - dendron
         - public
     siteRootDir: docs
+    logo: "vault/assets/images/logo.png"
     siteUrl: https://oolonek.github.io/dendron/
     siteProtocol: https
     usePrettyRefs: true
