@@ -11,6 +11,8 @@ site:
         - knowledge
         - arutam
         - cli
+        - tools
+        - writing
     siteRootDir: docs
     logo: "docs/assets/images/logo.png"
     siteUrl: https://oolonek.github.io/dendron/
