@@ -15,3 +15,5 @@ site:
     usePrettyRefs: true
     gh_edit_repository: https://github.com/oolonek/dendron
     gh_edit_branch: main
+    title: grndstt's dendron
+    author: "grndstt" 
