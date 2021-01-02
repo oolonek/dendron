@@ -13,3 +13,4 @@ site:
     siteProtocol: https
     usePrettyRefs: true
     gh_edit_repository: https://github.com/oolonek/dendron
+    gh_edit_branch: main
