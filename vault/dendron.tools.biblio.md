@@ -2,7 +2,7 @@
 id: 1cfa0181-c229-46f5-a545-6e84a1a0c551
 title: Biblio
 desc: ''
-updated: 1609599895179
+updated: 1609604978447
 created: 1609570147699
 ---
 
@@ -35,70 +35,11 @@ Bib file formatting is required to avoid the previous error. This error is someh
 From the automatically sync .bib of Mendeley, make a copy and ctrl+F replace all \{ by \'{ and all all \} by \'}
 This should make the trick.
 
-
-TODO automate with a sed script ? the bib cleaning 
-
-Some sed black magic 
-
-```bash
-echo "\{" | sed "s|\\\{|\\\'{|"
-````
-Double \\ to escape the \\
-
-And repeat 
-
-```bash
-echo "\{jhdgjshgjhfsjdhgf\}" | sed "s|\\\{|\\\'{|g; s|\\\}|\\\'}|g;"
-````
-Now add input and outputs 
-
-```bash
-sed "s|\\\{|\\\'{|g; s|\\\}|\\\'}|g" library.bib > library_formatted.bib
-```
-
-We'll try to automatize the process using https://stackoverflow.com/a/13807906 fswatch and alternative to inotifywatch on linux https://linux.die.net/man/1/inotifywatch
-
-So here is the small bash script. It will take the command line arg 1 and add the _formatted prefix to it. Could be cleaner and directly extract the filename to accomodate for various type of extension. Not the point here. If any body has an idea, please contribute ! :point_down: 
-
-
-```bash
-#!/bin/bash
-sed "s|\\\{|\\\'{|g; s|\\\}|\\\'}|g" "$1" > "${1%.bib}_formatted.bib"
-```
-
-```bash
-#!/bin/bash
-
-# fullfilename="$(basename $1)"
-# extension="${fullfilename##*.}"
-# filename="${fullfilename%.*}"
-
-# echo $fullfilename
-# echo $extension
-# echo $filename
-
-#echo "File added: " "$(basename $1)" "$(basename $1)"
-sed "s|\\\{|\\\'{|g; s|\\\}|\\\'}|g" "$1" > "./formatted_bib/${filename}_formatted.bib"
-
-````
+See [[cli.sed_bash]] for the recipee.
 
 
 
-
-fswatch has been somehow a nightmare to understand ...
-
-to trouble shoot use the follwoing line to be sure of what exactly you take as input 
-
-```bash
-fswatch -0 ./mendeley_output/ | xargs -0 -n1 -I{} echo "{}"
-```
-
-
-
-
-
-
-TODO check Amoeba splitting of notes (here is a typical application case ... Automatization and sed lines should go in separate notes as these can be used for other purposes than just the .bib reformating)
+TODO check Amoeba splitting of notes (here is a typical application case ... Automatization and sed lines should go in separate notes as these can be used for other purposes than just the .bib reformating) 2021-01-02 17:30 checking .... and just splitted the above sed commands
 
 
 
