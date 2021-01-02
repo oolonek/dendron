@@ -5,8 +5,7 @@ desc: ''
 updated: 1609579275152
 created: 1601466786427
 stub: false
-bibliography:
-  - /Users/pma/Documents/library_red.bib
+bibliography: [../docs/assets/library_red.bib]
 ---
 
 # Tramadol project 
