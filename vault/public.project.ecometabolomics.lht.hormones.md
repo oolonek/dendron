@@ -2,7 +2,7 @@
 id: 6335feae-82eb-4555-8bc0-71dd227be49c
 title: Hormones
 desc: ''
-updated: 1609600475444
+updated: 1609604174561
 created: 1603707321437
 stub: false
 ---
@@ -17,9 +17,9 @@ We establish a list of hormones scaffolds.
 
 - Abscisic acid (ABA)
 
-```smiles
+
 OC(=O)\C=C(\C)/C=C/[C@@]1(O)C(C)=CC(=O)CC1(C)C
-````
+
 
 
 
