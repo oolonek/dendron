@@ -2,7 +2,7 @@
 id: 1cfa0181-c229-46f5-a545-6e84a1a0c551
 title: Biblio
 desc: ''
-updated: 1609604978447
+updated: 1609605279269
 created: 1609570147699
 ---
 
@@ -36,6 +36,10 @@ From the automatically sync .bib of Mendeley, make a copy and ctrl+F replace all
 This should make the trick.
 
 See [[cli.sed_bash]] for the recipee.
+
+And here goes a Note reference 
+
+((ref: [[cli.sed_bash]]))
 
 
 

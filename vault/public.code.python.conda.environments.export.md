@@ -12,5 +12,5 @@ stub: false
 
 `conda env export --from-history -f environment.yml`
 
-To create and env from this .yml file run [[public.lang.python.conda.environments.creation]]
+To create and env from this .yml file run [[public.code.python.conda.environments.creation]]
 
