@@ -1,11 +1,9 @@
 ---
-id: 326210a1-cb21-4d0c-8c0e-f012c733895d
+id: b63251ed-52a8-43c0-9789-21f9ca462444
 title: Tramadol
 desc: ''
-updated: 1609588824705
-created: 1601466786427
-stub: false
-bibliography: [/Users/pma/Documents/library_formatted.bib]
+updated: 1609606946970
+created: 1609606875879
 ---
 
 # Tramadol project 
