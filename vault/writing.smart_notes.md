@@ -21,3 +21,5 @@ https://takesmartnotes.com/
 ---
 
 //TODO investigate deliberate practice
+
+https://jamesclear.com/deliberate-practice-theory #prodporn
