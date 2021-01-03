@@ -2,3 +2,6 @@
 node_modules
 build
 *.DStore
+.dendron.ws
+.dendron.port
+TODO
