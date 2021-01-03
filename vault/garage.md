@@ -2,7 +2,7 @@
 id: 88ed503e-7fea-4a52-aead-a4a5d31a9b8e
 title: Garage
 desc: ''
-updated: 1609699867247
+updated: 1609702188686
 created: 1609698642888
 stub: false
 ---
@@ -20,10 +20,11 @@ What is interesting is that in a garage you can peek in and get a sense of the t
 
 TODO make a list of similar types of research strategies in academic or personal research 
 - MMV 
-- 
+
 
 
 https://michaelnielsen.org/
 https://quantum.country/qcvc
+
 
 
