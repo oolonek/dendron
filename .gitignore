@@ -1,7 +1,7 @@
 *private*
 node_modules
 build
-*.DStore
+*.DS_Store
 .dendron.ws
 .dendron.port
 TODO
