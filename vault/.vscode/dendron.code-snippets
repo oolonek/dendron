@@ -22,5 +22,11 @@
         "scope": "markdown,yaml",
         "body": "$CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE",
         "description": "time"
+    },
+    "bash": {
+        "prefix": "bash",
+        "scope": "markdown,yaml",
+        "body": "```bash\n```",
+        "description": "bash chunk"
     }
 }
