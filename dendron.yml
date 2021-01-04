@@ -9,11 +9,12 @@ site:
         - dendron
         - public
         - knowledge
-        - arutam
         - cli
         - tools
         - writing
         - readlist
+        - projects
+        - arutam
         - garage
     siteRootDir: docs
     logo: "docs/assets/images/logo.png"
