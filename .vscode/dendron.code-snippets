@@ -2,7 +2,7 @@
     "todo": {
         "prefix": "to",
         "scope": "markdown,yaml",
-        "body": "- [ ] ",
+        "body": "7670[ ",
         "description": "render todo box"
     },
     "tag": {
@@ -34,5 +34,11 @@
         "scope": "markdown,yaml",
         "body": "```bash\n```",
         "description": "bash chunk"
+    },
+    "python": {
+        "prefix": "python",
+        "scope": "markdown,yaml",
+        "body": "```python\n```",
+        "description": "python chunk"
     }
 }

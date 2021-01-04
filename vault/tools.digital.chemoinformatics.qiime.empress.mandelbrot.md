@@ -2,7 +2,7 @@
 id: c1fbbdc7-aa99-4a6c-b6b8-629d59dbd276
 title: Mandelbrot
 desc: ''
-updated: 1608892191702
+updated: 1609753340240
 created: 1608048463386
 ---
 
@@ -102,6 +102,13 @@ qiime feature-table filter-samples \
   --o-filtered-table taxscore-filtered-feature_table.qza
 
 
+qiime feature-table filter-samples \
+  --i-table feature-contingency-filtered-table.qza \
+  --m-metadata-file sample_metadata.tsv \
+  --p-where "[Consensus_class_ci_cf]!='nan'" \
+  --o-filtered-table nan-filtered-table.qza
+
+
 qiime empress community-plot \
   --i-tree otol_tree_rooted.qza \
   --i-feature-table taxscore-filtered-feature_table.qza \
@@ -111,3 +118,5 @@ qiime empress community-plot \
   --o-visualization empress-tree.qzv \
   --p-filter-missing-features \
   --p-ignore-missing-samples
+
+
