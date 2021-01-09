@@ -2,7 +2,7 @@
 id: 1cfa0181-c229-46f5-a545-6e84a1a0c551
 title: Biblio
 desc: ''
-updated: 1609605279269
+updated: 1610131807950
 created: 1609570147699
 ---
 # Bib integration in dendron
@@ -40,3 +40,5 @@ TODO check Amoeba splitting of notes (here is a typical application case ... Aut
 
 TODO understand the way to have the bibliography display on the published version of dendron. Not the case at the moment see [[projects.tramadol]]
 
+
+TODO set bibliography globally

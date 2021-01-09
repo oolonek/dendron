@@ -2,7 +2,7 @@
 id: 4ae7e2f5-d970-4485-9554-380bbab7a1bd
 title: Sed_bash
 desc: ''
-updated: 1609604978319
+updated: 1610132317773
 created: 1609604978319
 ---
 
@@ -62,3 +62,4 @@ to trouble shoot use the follwoing line to be sure of what exactly you take as i
 ```bash
 fswatch -0 ./mendeley_output/ | xargs -0 -n1 -I{} echo "{}"
 ```
+
