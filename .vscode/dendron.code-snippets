@@ -2,7 +2,7 @@
     "todo": {
         "prefix": "to",
         "scope": "markdown,yaml",
-        "body": "7670[ ",
+        "body": "- [ ] ",
         "description": "render todo box"
     },
     "tag": {
