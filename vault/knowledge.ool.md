@@ -4,7 +4,8 @@ title: Ool
 desc: ''
 updated: 1610132367829
 created: 1610131486820
-bibliography: [/Users/pma/Documents/biblio_mendeley/formatted_bib/library_formatted.bib]
+bibliography:
+  - /Users/pma/Documents/biblio_mendeley/formatted_bib/library_formatted.bib
 ---
 
 # Origins of Life
