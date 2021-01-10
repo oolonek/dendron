@@ -7,10 +7,12 @@ site:
     siteHierarchies:
         - welcome
         - dendron
+        - pledge
         - public
         - knowledge
         - cli
         - tools
+        - todo
         - writing
         - readlist
         - projects
