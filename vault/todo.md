@@ -2,7 +2,7 @@
 id: 780b75f2-4b67-457a-bd34-d4dcafc97f21
 title: Todo
 desc: ''
-updated: 1610312344743
+updated: 1610313105461
 created: 1610308425589
 ---
 
@@ -12,11 +12,6 @@ created: 1610308425589
 
 2021-01-10 21:45
 
-- [ ] check for automatic md formatting as striketru insted of just checked
-    - [x] ~~like this~~
-    - [x] rather than just this 
-
-- [ ] Check and explore tags / backlinks system in Dendron (put this there [[tools.tags]]) 
 - [ ] build an automated pipeline for "classical" metabolomics data treatment
 nothing fancy, just automatize the typical steps:
     - mzmine
@@ -25,5 +20,16 @@ nothing fancy, just automatize the typical steps:
     - report generation
 
 2021-01-10 20:54 
-- [ ] See how to organize todo in dendron
-- [ ] Pass ZK notes from Sublime to dendron
+- [ ] See how to organize todo in dendron [[#doing|doing]]
+- [ ] Pass ZK notes from Sublime to dendron [[#todo|todo]]
+
+
+# DONE
+
+2021-01-10 22:10
+
+- [x] ~~check for automatic md formatting as striketru insted of just checked~~ added the ctrl + shift + t shortcut to strikethrough efficiently
+    - [x] ~~like this~~
+    - [x] rather than just this 
+
+- [x] ~~Check and explore tags / backlinks system in Dendron (put this there [[tools.tags]]).~~ See [[tools.tags]]
