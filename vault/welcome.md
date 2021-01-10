@@ -2,14 +2,14 @@
 id: 9ca62419-9479-47ad-ae8c-3be28fedf883
 title: Welcome
 desc: ''
-updated: 1610309975053
+updated: 1610310141273
 created: 1610305264087
 ---
 
 👆 Type a keyword or a section you are looking for up there 👆
 ## What's after wilderness  🏔️ 🦖
 
-This normally comes after the dendron introduction [[dendron]] ... but let's put it as a welcome word !
+This note initially came after the dendron introduction [[dendron]] ... but let's put it as a welcome word !
 
 Some of the stuff you will find on this personal dendron website.
 
