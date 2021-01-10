@@ -2,7 +2,7 @@
 id: 780b75f2-4b67-457a-bd34-d4dcafc97f21
 title: Todo
 desc: ''
-updated: 1610311864248
+updated: 1610312344743
 created: 1610308425589
 ---
 
@@ -12,7 +12,11 @@ created: 1610308425589
 
 2021-01-10 21:45
 
-- [ ] Check and explore tags / backlinks system in Dendron (put this there [[tools.tags]])
+- [ ] check for automatic md formatting as striketru insted of just checked
+    - [x] ~~like this~~
+    - [x] rather than just this 
+
+- [ ] Check and explore tags / backlinks system in Dendron (put this there [[tools.tags]]) 
 - [ ] build an automated pipeline for "classical" metabolomics data treatment
 nothing fancy, just automatize the typical steps:
     - mzmine
