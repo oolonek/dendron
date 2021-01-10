@@ -2,7 +2,7 @@
 id: 9ca62419-9479-47ad-ae8c-3be28fedf883
 title: Welcome
 desc: ''
-updated: 1610307175694
+updated: 1610309975053
 created: 1610305264087
 ---
 
@@ -17,6 +17,7 @@ Some of the stuff you will find on this personal dendron website.
 
 - [ ] A garage, lab and workshop with [open doors](https://notes.andymatuschak.org/z21cgR9K3UcQ5a7yPsj2RUim3oM2TzdBByZu). See first notes here [[garage]]
 
+- [ ] A public pledge [[pledge]] inspired by Daniel Mietchen.
 
 Help me to grow this dendron, let's add sections and branches together !
 To add comments and suggestions two possibilities :
