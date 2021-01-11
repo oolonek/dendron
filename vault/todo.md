@@ -2,7 +2,7 @@
 id: 780b75f2-4b67-457a-bd34-d4dcafc97f21
 title: Todo
 desc: ''
-updated: 1610313144012
+updated: 1610364447885
 created: 1610308425589
 ---
 
@@ -19,7 +19,7 @@ nothing fancy, just automatize the typical steps:
     - report generation
 
 2021-01-10 20:54 
-- [ ] See how to organize todo in dendron [[#doing|doing]]
+- [ ] See how to organize todos in dendron [[#doing|doing]]
 - [ ] Pass ZK notes from Sublime to dendron [[#todo|todo]]
 
 

@@ -1,9 +1,9 @@
 {
-    "todo": {
+    "//TODO": {
         "prefix": "to",
         "scope": "markdown,yaml",
         "body": "- [ ] ",
-        "description": "render todo box"
+        "description": "render //TODO box"
     },
     "tag": {
         "prefix": "#",
@@ -17,6 +17,12 @@
         "body": "$CURRENT_YEAR.$CURRENT_MONTH.$CURRENT_DATE",
         "description": "today's date"
     },
+    "now": {
+        "prefix": "now",
+        "scope": "markdown,yaml",
+        "body": "- `$CURRENT_HOUR:$CURRENT_MINUTE` ",
+        "description": "now in hour:min"
+    },
     "time": {
         "prefix": "time",
         "scope": "markdown,yaml",
@@ -28,5 +34,12 @@
         "scope": "markdown,yaml",
         "body": "```bash\n```",
         "description": "bash chunk"
+    },
+    "local_link": {
+        "prefix": "local_link",
+        "scope": "markdown,yaml",
+        "body": "[](../../../../../)",
+        "description": "local_link"
     }
 }
+

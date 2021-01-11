@@ -2,7 +2,7 @@
 id: e30f51cb-4b6c-4f81-9442-567163b03ba4
 title: Smart_notes
 desc: ''
-updated: 1601910181961
+updated: 1610364480028
 created: 1601910181961
 stub: false
 ---

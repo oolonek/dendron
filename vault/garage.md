@@ -2,7 +2,7 @@
 id: 88ed503e-7fea-4a52-aead-a4a5d31a9b8e
 title: Garage
 desc: ''
-updated: 1610352673014
+updated: 1610363308544
 created: 1609698642888
 stub: false
 ---
@@ -23,7 +23,7 @@ https://quantum.country/qcvc cf [[vault/tools.mnemonics]]
 
 ## A list of similar research endeavors 
 
-TODO make a list of similar types of research strategies in academic or personal research 
+//TODO make a list of similar types of research strategies in academic or personal research 
 
 - OSM The Open Source Malaria https://opensourcemalaria.org/. Hey they also have a fork for TB http://opensourcetb.org/
 

@@ -2,7 +2,7 @@
 id: 9ca62419-9479-47ad-ae8c-3be28fedf883
 title: Welcome
 desc: ''
-updated: 1610311470800
+updated: 1610363308544
 created: 1610305264087
 ---
 
@@ -13,7 +13,7 @@ This note initially came after the dendron introduction [[dendron]] ... but let'
 
 ### What is this ?
 
-You might find  a lot of stuff on this personal dendron website. It has for objective to be used as a dump for ideas, todo lists, read lists, ... [fill the dots] or an electronic lab notebook. You can see it as a digital experiment aiming to gather :
+You might find  a lot of stuff on this personal dendron website. It has for objective to be used as a dump for ideas, //TODO lists, read lists, ... [fill the dots] or an electronic lab notebook. You can see it as a digital experiment aiming to gather :
 
 - [ ] academic research material of exploratory projects around natural products, biodiversity & ecology - instead of presenting final object we will rather follow an [anti-marketing approach](https://notes.andymatuschak.org/z4bK6LaSBRetDzuYkeCs3A8mJ8DufTbK4o6FS)
 

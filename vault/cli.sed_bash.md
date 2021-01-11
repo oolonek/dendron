@@ -2,11 +2,11 @@
 id: 4ae7e2f5-d970-4485-9554-380bbab7a1bd
 title: Sed_bash
 desc: ''
-updated: 1610132317773
+updated: 1610363308545
 created: 1609604978319
 ---
 
-TODO automate with a sed script ? the bib cleaning 
+//TODO automate with a sed script ? the bib cleaning 
 
 Some sed black magic 
 

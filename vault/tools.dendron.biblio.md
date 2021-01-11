@@ -2,7 +2,7 @@
 id: 1cfa0181-c229-46f5-a545-6e84a1a0c551
 title: Biblio
 desc: ''
-updated: 1610131807950
+updated: 1610363308544
 created: 1609570147699
 ---
 # Bib integration in dendron
@@ -36,9 +36,11 @@ And here goes a Note reference
 
 ((ref: [[cli.sed_bash]]))
 
-TODO check Amoeba splitting of notes (here is a typical application case ... Automatization and sed lines should go in separate notes as these can be used for other purposes than just the .bib reformating) 2021-01-02 17:30 checking .... and just splitted the above sed commands
+//TODO check Amoeba splitting of notes (here is a typical application case ... Automatization and sed lines should go in separate notes as these can be used for other purposes than just the .bib reformating) 2021-01-02 17:30 checking .... and just splitted the above sed commands
 
-TODO understand the way to have the bibliography display on the published version of dendron. Not the case at the moment see [[projects.tramadol]]
+//TODO understand the way to have the bibliography display on the published version of dendron. Not the case at the moment see [[projects.tramadol]]
 
 
-TODO set bibliography globally
+//TODO set bibliography globally
+
+
