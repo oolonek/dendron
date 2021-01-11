@@ -2,15 +2,11 @@
 id: 88ed503e-7fea-4a52-aead-a4a5d31a9b8e
 title: Garage
 desc: ''
-updated: 1610302956740
+updated: 1610351112200
 created: 1609698642888
 stub: false
 ---
 
-
-![](/assets/images/2021-01-03-19-44-16.png)
-
-![](./assets/images/2021-01-03-19-44-16.png)
 
 ![](assets/images/2021-01-03-19-44-16.png)
 
@@ -40,5 +36,5 @@ https://github.com/Daniel-Mietchen/datascience/blob/master/commons.md
 
 
 
-![](https://progress-bar.dev/70)
+![ ](https://progress-bar.dev/70)
 
