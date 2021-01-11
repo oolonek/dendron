@@ -2,7 +2,7 @@
 id: d116d7cc-dbf7-4876-b182-7065c314703e
 title: Pandas
 desc: ''
-updated: 1609846918431
+updated: 1610378025793
 created: 1609770454495
 ---
 
@@ -32,4 +32,17 @@ df.dtypes
 
 ```python
 df.year.astype(int)
+```
+
+# From continuous to categorical 
+
+```python
+pd.cut(df.Age,bins=[0,2,17,65,99],labels=['Toddler/Baby','Child','Adult','Elderly'])
+```
+
+
+# Merge two df based on index
+
+```python
+pd.merge(df1, df2, left_index=True, right_index=True)
 ```
