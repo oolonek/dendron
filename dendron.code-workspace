@@ -1,14 +1,14 @@
 {
     "folders": [
         {
-            "path": "."
+            "path": "vault"
         }
     ],
     "settings": {
         "dendron.rootDir": ".",
         "files.autoSave": "onFocusChange",
         "pasteImage.path": "${currentFileDir}/assets/images",
-        "pasteImage.prefix": "",
+        "pasteImage.prefix": "/",
         "markdown-preview-enhanced.enableWikiLinkSyntax": true,
         "markdown-preview-enhanced.wikiLinkFileExtension": ".md",
         "editor.snippetSuggestions": "inline",
