@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/oolonek/dendron#readme",
   "dependencies": {
-    "@dendronhq/dendron-11ty": "^1.22.5",
-    "@dendronhq/dendron-cli": "^0.22.1"
+    "@dendronhq/dendron-11ty": "^1.23.10",
+    "@dendronhq/dendron-cli": "^0.23.2-alpha.3"
   }
 }
