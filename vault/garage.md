@@ -2,7 +2,7 @@
 id: 88ed503e-7fea-4a52-aead-a4a5d31a9b8e
 title: Garage
 desc: ''
-updated: 1610352379592
+updated: 1610352673014
 created: 1609698642888
 stub: false
 ---
@@ -51,4 +51,3 @@ https://github.com/Daniel-Mietchen/datascience/blob/master/commons.md
 [[tools.organization.digitalgardens]]
 
 
-[[tools.organization.digitalgardens.md]]
