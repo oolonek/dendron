@@ -2,7 +2,7 @@
 id: 88ed503e-7fea-4a52-aead-a4a5d31a9b8e
 title: Garage
 desc: ''
-updated: 1610351112200
+updated: 1610351722956
 created: 1609698642888
 stub: false
 ---
@@ -35,6 +35,9 @@ It looks like Daniel has started to compile some information and examples. Here 
 https://github.com/Daniel-Mietchen/datascience/blob/master/commons.md
 
 
+ ### Different implementation of a progress bar 
+
 
 ![ ](https://progress-bar.dev/70)
 
+<iframe src="https://progress-bar.dev/34" frameborder="0" scrolling="0" width="170" height="30" title="34"></iframe>
