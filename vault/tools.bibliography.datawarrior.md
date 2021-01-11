@@ -2,14 +2,14 @@
 id: 55bdcae3-6444-4326-8dcc-6ee7a44d588a
 title: Datawarrior
 desc: ''
-updated: 1610313385539
+updated: 1610348378255
 created: 1610313312754
 ---
 
 (sublime ZK imported)
 
 # idea_datawarrior
-tags = #database #datawarrior #bibliography
+tags = #database #datawarrior #bibliography o
 
 Add bibliographic reference to each compounds using the google scholar patents links functionality of DataWarrior.
 
