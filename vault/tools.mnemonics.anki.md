@@ -2,7 +2,7 @@
 id: aa36aa90-19a4-40be-9b12-2430865e5277
 title: Anki
 desc: ''
-updated: 1610484955592
+updated: 1610486173263
 created: 1610484198313
 ---
 
@@ -29,4 +29,4 @@ You can the get a bunch of stats telling you how bad you are ... Repetition is k
 But I think that a small period of learning each 2/3 days is great. What I did not cath is a way to get reminder from Anki, since it's objective is to schedule the relearning this could be a useful option. Have to check this.
 
 Stats that you can get from the Anki deck soft 
-[stats]('assets/anki-stats-2021-01-12@21-47-51.pdf')
+[stats](assets/anki-stats-2021-01-12@21-47-51.pdf)
