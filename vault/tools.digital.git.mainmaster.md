@@ -2,7 +2,7 @@
 id: 3969e00a-375a-48c7-91c5-36e1b81200c1
 title: Mainmaster
 desc: ''
-updated: 1609525066023
+updated: 1610468188442
 created: 1609525005846
 ---
 
@@ -14,7 +14,6 @@ https://www.r-bloggers.com/2020/07/5-steps-to-change-github-default-branch-from-
 and eventually you need to 
 
 git pull origin master --allow-unrelated-histories
-
 
 (https://www.educative.io/edpresso/the-fatal-refusing-to-merge-unrelated-histories-git-error)
 

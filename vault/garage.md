@@ -2,7 +2,7 @@
 id: 88ed503e-7fea-4a52-aead-a4a5d31a9b8e
 title: Garage
 desc: ''
-updated: 1610363308544
+updated: 1610473106492
 created: 1609698642888
 stub: false
 ---
@@ -21,18 +21,24 @@ What is interesting is that in a garage you can peek in and get a sense of the t
 https://michaelnielsen.org/
 https://quantum.country/qcvc cf [[vault/tools.mnemonics]]
 
+
 ## A list of similar research endeavors 
 
 //TODO make a list of similar types of research strategies in academic or personal research 
 
 - OSM The Open Source Malaria https://opensourcemalaria.org/. Hey they also have a fork for TB http://opensourcetb.org/
 
+- //TODO Have a look over there http://matt.might.net/.
+Also check the CRAPL license http://matt.might.net/articles/crapl/ (thanks to Adriano Rutz for fwd)
 
 
-Daniel Mietchen github is a treasure trove for open science ressources and actually a pretty good example of garage with an open door https://github.com/Daniel-Mietchen
+
+Daniel Mietchen github is a treasure trove for open science resources and actually a pretty good example of garage with an open door https://github.com/Daniel-Mietchen
 
 It looks like Daniel has started to compile some information and examples. Here for the use of Commons in science
 https://github.com/Daniel-Mietchen/datascience/blob/master/commons.md
+
+
 
 
  ### Different implementation of a progress bar 
@@ -41,13 +47,5 @@ https://github.com/Daniel-Mietchen/datascience/blob/master/commons.md
 ![ ](https://progress-bar.dev/70)
 
 <iframe src="https://progress-bar.dev/34" frameborder="0" scrolling="0" width="170" height="30" title="34"></iframe>
-
-### Links test 
-
-
-[[vault/private]]
-[[vault/tools.organization.digitalgardensden]]
-
-[[tools.organization.digitalgardens]]
 
 
