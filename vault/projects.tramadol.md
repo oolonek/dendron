@@ -2,8 +2,9 @@
 id: b63251ed-52a8-43c0-9789-21f9ca462444
 title: Tramadol
 desc: ''
-updated: 1610131830836
+updated: 1610451105911
 created: 1609606875879
+bibliography: [/Users/pma/Documents/library_red.bib]
 ---
 
 # Tramadol project 
@@ -23,19 +24,17 @@ Third, indicate what you have done in an effort to address the need (this is the
 Finally, preview the remainder of the paper to mentally prepare readers for its structure, in the object of the document.
 
 
+@Brown2012a
 
-
-[@Blunt2009]
 
 @Brown2012a
 
-@Gerwick2012a
-
-@Allard2011
 
 
 
 #References
+
+
 
 
 

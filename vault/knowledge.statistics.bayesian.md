@@ -2,7 +2,7 @@
 id: 80c4f709-39bd-47e3-949f-82f4c37e6413
 title: Bayesian
 desc: ''
-updated: 1608715595472
+updated: 1610451798155
 created: 1608654292868
 ---
 
@@ -35,5 +35,11 @@ Stephen Senn, Statistician & Bayesian Skeptic (mostly)
 https://faculty.washington.edu/kenrice/BayesIntroClassEpi2018.pdf
 
 
+# Application to Mandelbrot project
+Bayesian are especially powerful for functional optimization.
+In the frame of the mandelbrot project we could try to functionalize our drug discovery quest < this alone is a big part of the problem. 
 
+- an ensemble of molecules found to be present in various amount in plants displaying a high inhibitory activity and a low cytotoxicity.
+- the more this ensemble of molecules is restricted and unique to the highly bioactive plants, the more they are the potential responsible of this bioactivity.
+- some priors could be defined: we know that scaffold X and Y usually display these activities.
 
