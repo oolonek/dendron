@@ -2,7 +2,7 @@
 id: 88ed503e-7fea-4a52-aead-a4a5d31a9b8e
 title: Garage
 desc: ''
-updated: 1610473106492
+updated: 1610479580619
 created: 1609698642888
 stub: false
 ---
@@ -29,7 +29,10 @@ https://quantum.country/qcvc cf [[vault/tools.mnemonics]]
 - OSM The Open Source Malaria https://opensourcemalaria.org/. Hey they also have a fork for TB http://opensourcetb.org/
 
 - //TODO Have a look over there http://matt.might.net/.
-Also check the CRAPL license http://matt.might.net/articles/crapl/ (thanks to Adriano Rutz for fwd)
+Also check the CRAPL license http://matt.might.net/articles/crapl/ 
+(thanks to Adriano Rutz for fwd)
+
+- http://matt.might.net/articles/programmers-resolutions/
 
 
 
