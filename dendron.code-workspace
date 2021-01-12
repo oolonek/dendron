@@ -14,7 +14,9 @@
         "editor.snippetSuggestions": "inline",
         "editor.suggest.snippetsPreventQuickSuggestions": false,
         "editor.suggest.showSnippets": true,
-        "editor.tabCompletion": "on"
+        "editor.tabCompletion": "on",
+        "PandocCiter.DefaultBib": "/Users/pma/Documents/library_red.bib",
+        "cSpell.enabled": true
     },
     "extensions": {
         "recommendations": [
