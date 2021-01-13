@@ -2,9 +2,19 @@
 id: 8a627ba7-8b8e-483a-aaed-5142f455b602
 title: Papers
 desc: ''
-updated: 1610466157577
+updated: 1610572854884
 created: 1610194509817
 ---
+
+2021-01-13 22:12
+
+# Towards a biodiversity knowledge graph
+
+https://riojournal.com/articles.php?journal_name=rio&id=8767
+Check RIO in general
+Dig into http://beta.briefideas.org/
+//TODO Make a nanopub and related  note
+
 
 2021-01-12 16:41
 
@@ -15,13 +25,13 @@ https://www.biorxiv.org/content/biorxiv/early/2021/01/06/2021.01.06.425569.full.
 
 2021-01-09 14:18
 
-## Florian Huber blog post msmsmatch tuto
+# Florian Huber blog post msmsmatch tuto
 https://blog.esciencecenter.nl/build-your-own-mass-spectrometry-analysis-pipeline-in-python-using-matchms-part-i-d96c718c68ee
 
 
 
 2021-01-09 13:15
 
-## Chemical graph generators
+# Chemical graph generators
 https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008504
 
