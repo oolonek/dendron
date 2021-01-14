@@ -2,7 +2,7 @@
 id: e30f51cb-4b6c-4f81-9442-567163b03ba4
 title: Smart_notes
 desc: ''
-updated: 1610364480028
+updated: 1610657377958
 created: 1601910181961
 stub: false
 ---
@@ -20,6 +20,6 @@ https://takesmartnotes.com/
 
 ---
 
-//TODO investigate deliberate practice
+
 
 https://jamesclear.com/deliberate-practice-theory #prodporn

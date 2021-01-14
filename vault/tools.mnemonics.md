@@ -2,7 +2,7 @@
 id: 1fc6ff52-0893-44ff-bc3b-e8855ee6318e
 title: Mnemonics
 desc: ''
-updated: 1610484198397
+updated: 1610657511416
 created: 1600716697073
 stub: false
 ---
@@ -17,6 +17,13 @@ https://numinous.productions/ttft/#top
 A new mnemonic medium 
 https://quantum.country/qcvc
 
+
+
+## Prompts 
+
+How to write good prompts: using spaced repetition to create understanding
+
+https://andymatuschak.org/prompts/ 
 
 
 
