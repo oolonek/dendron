@@ -4,7 +4,8 @@ title: Tests
 desc: ''
 updated: 1610874299058
 created: 1610451373351
-bibliography: [/Users/pma/Documents/library_red.bib]
+bibliography:
+  - /Users/pma/Documents/library_red.bib
 ---
 
 # Bib integration tests in dendron

@@ -4,7 +4,8 @@ title: Tramadol
 desc: ''
 updated: 1610451105911
 created: 1609606875879
-bibliography: [/Users/pma/Documents/library_red.bib]
+bibliography:
+  - /Users/pma/Documents/library_red.bib
 ---
 
 # Tramadol project 
