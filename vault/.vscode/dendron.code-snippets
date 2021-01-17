@@ -38,7 +38,7 @@
     "local_link": {
         "prefix": "local_link",
         "scope": "markdown,yaml",
-        "body": "[](../../../../../)",
+        "body": "[](../../../../..)",
         "description": "local_link"
     }
 }

@@ -2,9 +2,17 @@
 id: 97e40249-3d96-4511-b3e3-133d2dc29b84
 title: Philosophy
 desc: ''
-updated: 1610884370956
+updated: 1610893475043
 created: 1610876019394
 ---
+## Gaston Bachelard
+
+https://www.franceculture.fr/emissions/series/confines-avec-gaston-bachelard
+
+(listened ep1. with one ear) <<< je devrais peut-être moins écouter d'une oreille, écrire d'une main ou penser a un hemisphère d'ailleurs ...
+
+https://www.babelio.com/livres/Bachelard-La-poetique-de-lespace/2168
+La _poétique de l'espace_ serait les 300 pages les plus lues et citées de Bachelard. Un condensé de sa philosophie.
 
 ## Isabelle Stengers
 

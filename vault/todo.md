@@ -2,11 +2,15 @@
 id: 780b75f2-4b67-457a-bd34-d4dcafc97f21
 title: Todo
 desc: ''
-updated: 1610484260571
+updated: 1610891429764
 created: 1610308425589
 ---
 
 # TODO
+
+2021-01-17 14:49
+
+- [ ] finalize the matchms based ISDB spectral matching script
 
 
 2021-01-10 21:45
@@ -21,7 +25,7 @@ created: 1610308425589
 
 2021-01-10 20:54 
 - [ ] See how to organize todos in dendron [[#doing|doing]]
-- [ ] Pass ZK notes from Sublime to dendron [[#todo|todo]]
+- [ ] Pass ZK notes from Sublime to dendron [[#doing|doing]]
 
 
 # DONE
