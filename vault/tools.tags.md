@@ -2,7 +2,7 @@
 id: 6cf7d838-efa3-4f3a-8522-bdb20e69b077
 title: Tags
 desc: ''
-updated: 1610312679662
+updated: 1610885165005
 created: 1609676687166
 ---
 
@@ -18,4 +18,7 @@ Existing is [[tools.organization.digitalgardens]] and non existing is [[spatial.
 Pretty version [[#explo|spatial.explo]]
 
 
- 
+ ---
+
+ //TODO Sublime ZK-like tag system. It would be really nice to have tag proposition and autocompletion
+ Suggest or ask in dendron discord. 
