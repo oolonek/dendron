@@ -2,7 +2,7 @@
 id: 14b00242-595e-4d9c-b0f3-03fad565ef47
 title: Plant Status
 desc: ''
-updated: 1610885627930
+updated: 1610887629911
 created: 1610885304401
 ---
 
@@ -28,3 +28,27 @@ Also investigate recursive processes. https://fr.wikipedia.org/wiki/R%C3%A9cursi
 
 //TODO schema and diagrams in markdown
 
+
+2021-01-17 13:44
+
+Testing Mermaid with dendron md preview plugins 
+
+
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    B-->C;
+    C-->D;
+    D-->A;
+    D-->B;
+```
