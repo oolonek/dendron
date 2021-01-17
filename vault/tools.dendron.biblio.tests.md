@@ -2,7 +2,7 @@
 id: 531ec358-d553-4dc1-ae5f-95b0f2bd3e36
 title: Tests
 desc: ''
-updated: 1610462526147
+updated: 1610874299058
 created: 1610451373351
 bibliography: [/Users/pma/Documents/library_red.bib]
 ---
@@ -83,6 +83,18 @@ Beware of the space character before the s !
 
 @Blunt2009
 
+```
+---
+bibliography: /Users/pma/Documents/library_red.bib
+---
+
+@Brown2012a
+
+@Gerwick2012a
+
+@Blunt2009
+
+```
 
 @jimenez-lunaDrugDiscoveryExplainable2020```
 
