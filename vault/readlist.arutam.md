@@ -5,8 +5,6 @@ desc: ''
 updated: 1610885021387
 created: 1610884812059
 ---
-
-
 (ZK imported)
 
 Dans le numéro 57 de Les Grands Dossiers des Sciences Humaines.
@@ -22,7 +20,7 @@ André Gorz - défense de l'autonomie individuelle et de la critique du producti
 Serge Moscovici
 Edgar Morin
 Michel Serres - Le contrat Naturel 1990
-Bruno Latour - Travaux sur l'Anthropocène ![[to-investigate.philosophy#b-latour,1:#*]]
+Bruno Latour - Travaux sur l'Anthropocène ![[philosophy#b-latour,1:]]
 Catherine et Raphaël Larrère - premiers échanges entre philosophie française et éthique environnementales anglo-saxonnes
 Hicham-Stéphane Afeissa
 
@@ -35,3 +33,4 @@ Stephan Vogel - "Against Nature- THe concept of Nature in critical theory"
 Arne Naess (1912 - 2009) - Deep ecology, Ecologie, communauté et style de vie (1989) Ecosophie
 Holmes Rolston (1932 - ) Terre Objective
 Anna Lowenhaupt Tsing - Le Champignon de la fin du monde (pote de Marion Neumann, Utopiana Genève)
+

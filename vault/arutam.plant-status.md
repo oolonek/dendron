@@ -2,7 +2,7 @@
 id: 14b00242-595e-4d9c-b0f3-03fad565ef47
 title: Plant Status
 desc: ''
-updated: 1610887629911
+updated: 1610889483760
 created: 1610885304401
 ---
 
@@ -33,15 +33,6 @@ Also investigate recursive processes. https://fr.wikipedia.org/wiki/R%C3%A9cursi
 
 Testing Mermaid with dendron md preview plugins 
 
-
-```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-```
-
 ```mermaid
 graph TD;
     A-->B;
@@ -52,3 +43,21 @@ graph TD;
     D-->A;
     D-->B;
 ```
+
+
+```mermaid
+graph TD;
+    DNA-->Enzymes;
+    Enzymes-->Molecules;
+    Molecules-->Receptors-5HT;
+    Receptors-5HT-->Complex_thoughts;
+    Complex_thoughts-->DNA;
+    Complex_thoughts-->Enzymes;
+    Complex_thoughts-->Molecules;
+    Complex_thoughts-->Receptors-5HT;
+    Complex_thoughts-->Complex_thoughts;
+```
+
+This should appear like the image below, when https://github.com/dendronhq/dendron/issues/454 is addressed.
+
+![](/assets/images/2021-01-17-14-17-22.png)
