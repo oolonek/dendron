@@ -35,10 +35,32 @@
         "body": "```bash\n```",
         "description": "bash chunk"
     },
-    "local_link": {
-        "prefix": "local_link",
+    "local_link_raw": {
+        "prefix": "local_link_raw",
         "scope": "markdown,yaml",
         "body": "[](../../../../..)",
-        "description": "local_link"
+        "description": "local_link_raw"
+    },
+    "local_link_home": {
+        "prefix": "local_link_home",
+        "scope": "markdown,yaml",
+        "body": "[](../../..)",
+        "description": "local_link_home"
+    },
+    "project": {
+        "prefix": "project",
+        "body": [
+            "## Goals",
+            "",
+            "## Details",
+            "",
+            "## Discussions",
+            "",
+            "## Tasks",
+            "",
+            "## Release Notes",
+            ""
+        ],
+        "description": ""
     }
 }
