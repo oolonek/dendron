@@ -1,4 +1,4 @@
----
+x---
 id: 1fc6ff52-0893-44ff-bc3b-e8855ee6318e
 title: Mnemonics
 desc: ''
@@ -24,6 +24,7 @@ https://quantum.country/qcvc
 How to write good prompts: using spaced repetition to create understanding
 
 https://andymatuschak.org/prompts/ 
+Linked to ![[tools.mnemonics.anki]]
 
 
 
