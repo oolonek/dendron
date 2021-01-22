@@ -2,7 +2,7 @@
 id: e2d9e698-bb66-454a-96de-ef0e8bbecd1e
 title: Eln
 desc: ''
-updated: 1611255189308
+updated: 1611341467242
 created: 1611247430597
 ---
 
@@ -20,6 +20,10 @@ http://www.sesame.wisc.edu/sesame_home.html
 
 https://muccg.github.io/mastr-ms/
 
+
+https://chemotion.net/
+(down to recheck later)
+Install over here https://github.com/ComPlat/chemotion_ELN
 
 
 ## Recipe SENAITE install
