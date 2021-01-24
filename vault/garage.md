@@ -2,7 +2,7 @@
 id: 88ed503e-7fea-4a52-aead-a4a5d31a9b8e
 title: Garage
 desc: ''
-updated: 1610479580619
+updated: 1611401327851
 created: 1609698642888
 stub: false
 ---
@@ -20,6 +20,20 @@ What is interesting is that in a garage you can peek in and get a sense of the t
 
 https://michaelnielsen.org/
 https://quantum.country/qcvc cf [[vault/tools.mnemonics]]
+
+# Principles
+
+> 
+> _Make the first draft deliberately bad.
+> _
+> _It’s hard to write something good from nothing. But it’s easy to look at something and say “I can at least do better than this idiot.”_
+> 
+> _Be the idiot._
+> 
+> _Then be better. Then be better again...
+> _
+> 
+> -- (https://twitter.com/cahollenbeck/status/1327296301596352512)
 
 
 ## A list of similar research endeavors 
@@ -50,5 +64,11 @@ https://github.com/Daniel-Mietchen/datascience/blob/master/commons.md
 ![ ](https://progress-bar.dev/70)
 
 <iframe src="https://progress-bar.dev/34" frameborder="0" scrolling="0" width="170" height="30" title="34"></iframe>
+
+
+# Links
+
+
+https://galaxyproject.org/jxtx/
 
 

@@ -2,7 +2,7 @@
 id: 904dcb17-3307-4edd-99f9-a5cdd81bc376
 title: Rsync
 desc: ''
-updated: 1609690795967
+updated: 1611406709871
 created: 1609680294356
 ---
 
@@ -55,7 +55,7 @@ rsync -rvz -e 'ssh -p 80' --progress allardp@x2go.epgl-geneve.org:/home/EPGL.UNI
 
 rsync -rvz -e 'ssh' --progress "allardp@x2go.epgl-geneve.org:/home/farma.unige.ch/allardp/Desktop/FARMAnetwork/RECHERCHE/COMMON\ FASIE-FATHO/PMA/Ubuntu_VM_img/ISDB_DNP/results/fbmn_lena_metabo_results_DNP_top50.out" ./ 
 
-
+rsync -rvz -e 'ssh' --progress "allardp@x2go.epgl-geneve.org:/home/farma.unige.ch/allardp/lotusProcessor/data/interim/tables/4_analysed/platinum.tsv.gz" ./ 
 ```
 
 

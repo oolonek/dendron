@@ -1,3 +1,10 @@
+---
+id: e536d8a7-9079-4da0-9fca-453dc900440c
+title: Mnemonics
+desc: ''
+updated: 1611410658861
+created: 1611410658861
+---
 x---
 id: 1fc6ff52-0893-44ff-bc3b-e8855ee6318e
 title: Mnemonics

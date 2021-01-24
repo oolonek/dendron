@@ -2,7 +2,7 @@
 id: 508eccee-7949-423d-9e91-93e3c72850cb
 title: Tar
 desc: ''
-updated: 1609690897464
+updated: 1611406532608
 created: 1609690553137
 ---
 
@@ -20,6 +20,12 @@ To extract a tar.gz compressed archive you can use the following command
 
 ```bash
 tar -zxvf tar-archive-name.tar.gz
+```
+
+If its a gzipped file
+
+```bash
+gzip -d tar-archive-name.tar.gz
 ```
 
 This will extract the archive to the folder tar-archive-name.

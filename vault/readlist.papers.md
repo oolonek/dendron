@@ -2,9 +2,22 @@
 id: 8a627ba7-8b8e-483a-aaed-5142f455b602
 title: Papers
 desc: ''
-updated: 1610871776382
+updated: 1611504310757
 created: 1610194509817
 ---
+
+
+
+2021-01-24 17:04
+
+# Estimate Metabolite Taxonomy and Structure with a FragmentCentered Database and Fragment Network
+
+
+https://arxiv.org/pdf/2101.03784.pdf
+
+
+
+
 2021-01-17 09:21
 
 # Network-based strategies in metabolomics data analysis and interpretation: from molecular networking to biological interpretation
