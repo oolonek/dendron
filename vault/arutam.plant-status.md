@@ -2,7 +2,7 @@
 id: 14b00242-595e-4d9c-b0f3-03fad565ef47
 title: Plant Status
 desc: ''
-updated: 1610889483760
+updated: 1611680157727
 created: 1610885304401
 ---
 
@@ -26,7 +26,7 @@ ADN (objet biologique porteur d'information par excellence - code) > Enzymes > M
 Continuer les recherches sur la biosémiose et toutes les investigations effectuées dans ce sens par l’équipe de l'Université de Turku.
 Also investigate recursive processes. https://fr.wikipedia.org/wiki/R%C3%A9cursivit%C3%A9
 
-//TODO schema and diagrams in markdown
+//Done schema and diagrams in markdown
 
 
 2021-01-17 13:44
