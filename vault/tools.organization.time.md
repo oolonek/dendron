@@ -2,7 +2,7 @@
 id: ec378025-0a54-4e50-b3c6-4def62b3a82a
 title: Time
 desc: ''
-updated: 1610364461816
+updated: 1611679795132
 created: 1609702188544
 ---
 
@@ -91,7 +91,7 @@ Outside
 
 
 Working !!! That looks like a very nice option 
-Its not working in the //TODO+ files
+Its not working in the todo+ files
 
   Luis_Molina seeds metabo:
     ✔ grab back latest Mzmine project @started(21-01-03 13:40) @done(21-01-03 13:42) @lasted(2m26s)
@@ -132,3 +132,9 @@ Doesn't seem to take days shifts into account.
 
 
 - `21:03` Mail
+
+## Timeis
+
+https://time.is/fr/
+
+s

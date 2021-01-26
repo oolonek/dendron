@@ -2,12 +2,12 @@
 id: e0dd6f2b-e762-4ce7-a819-d29ec99dd0cd
 title: Notes
 desc: ''
-updated: 1610657435912
+updated: 1611680061259
 created: 1610657396412
 ---
 
 
-# Note taking vs. note making 
+# Taking notes vs. making notes
 
 [[nesslabs]]
 
