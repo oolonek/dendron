@@ -2,11 +2,12 @@
 id: 4ae7e2f5-d970-4485-9554-380bbab7a1bd
 title: Sed_bash
 desc: ''
-updated: 1610363308545
+updated: 1611680757583
 created: 1609604978319
 ---
 
-//TODO automate with a sed script ? the bib cleaning 
+[[#oneday|tag.oneday]]
+automate with a sed script ? the bib cleaning 
 
 Some sed black magic 
 
