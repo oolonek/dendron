@@ -2,7 +2,7 @@
 id: 5774257f-a576-4b2a-bf89-c95898c86ca2
 title: Arutam
 desc: ''
-updated: 1610885021387
+updated: 1611760912101
 created: 1610884812059
 ---
 (ZK imported)
@@ -14,23 +14,23 @@ Analyse du courant français qui était initialement préoccupé par une articul
 
 ### "L'école française"
 
-Jacques Ellul (Le personalsimen gascon) 1930
-Bernard Charbonneau
-André Gorz - défense de l'autonomie individuelle et de la critique du productivisme
-Serge Moscovici
-Edgar Morin
-Michel Serres - Le contrat Naturel 1990
-Bruno Latour - Travaux sur l'Anthropocène ![[philosophy#b-latour,1:]]
-Catherine et Raphaël Larrère - premiers échanges entre philosophie française et éthique environnementales anglo-saxonnes
-Hicham-Stéphane Afeissa
+* Jacques Ellul (Le personalsimen gascon) 1930
+* Bernard Charbonneau
+* André Gorz - défense de l'autonomie individuelle et de la critique du productivisme
+* Serge Moscovici
+* Edgar Morin
+* Michel Serres - Le contrat Naturel 1990
+* Bruno Latour - Travaux sur l'Anthropocène ![[philosophy#b-latour,1:]]
+* Catherine et Raphaël Larrère - premiers échanges entre philosophie française et éthique environnementales anglo-saxonnes
+* Hicham-Stéphane Afeissa
 
 ### "Ailleurs dans le Monde"
 
-Aldo Leopold
-Val Plumwood (1936 - 2008) - Ecofeminisme
-Baird Callicot - (1941 - ) Thinking like a planet
-Stephan Vogel - "Against Nature- THe concept of Nature in critical theory"
-Arne Naess (1912 - 2009) - Deep ecology, Ecologie, communauté et style de vie (1989) Ecosophie
-Holmes Rolston (1932 - ) Terre Objective
-Anna Lowenhaupt Tsing - Le Champignon de la fin du monde (pote de Marion Neumann, Utopiana Genève)
+* Aldo Leopold
+* Val Plumwood (1936 - 2008) - Ecofeminisme
+* Baird Callicot - (1941 - ) Thinking like a planet
+* Stephan Vogel - "Against Nature- THe concept of Nature in critical theory"
+* Arne Naess (1912 - 2009) - Deep ecology, Ecologie, communauté et style de vie (1989) Ecosophie
+* Holmes Rolston (1932 - ) Terre Objective
+* Anna Lowenhaupt Tsing - Le Champignon de la fin du monde (pote de Marion Neumann, Utopiana Genève)
 
