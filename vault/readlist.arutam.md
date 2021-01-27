@@ -2,7 +2,7 @@
 id: 5774257f-a576-4b2a-bf89-c95898c86ca2
 title: Arutam
 desc: ''
-updated: 1611760912101
+updated: 1611761051707
 created: 1610884812059
 ---
 (ZK imported)
@@ -20,7 +20,8 @@ Analyse du courant français qui était initialement préoccupé par une articul
 * Serge Moscovici
 * Edgar Morin
 * Michel Serres - Le contrat Naturel 1990
-* Bruno Latour - Travaux sur l'Anthropocène ![[philosophy#b-latour,1:]]
+* Bruno Latour - Travaux sur l'Anthropocène 
+![[philosophy#b-latour,1:]]
 * Catherine et Raphaël Larrère - premiers échanges entre philosophie française et éthique environnementales anglo-saxonnes
 * Hicham-Stéphane Afeissa
 
