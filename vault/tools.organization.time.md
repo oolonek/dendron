@@ -2,12 +2,12 @@
 id: ec378025-0a54-4e50-b3c6-4def62b3a82a
 title: Time
 desc: ''
-updated: 1611679795132
+updated: 1611865266357
 created: 1609702188544
 ---
 
 
-Having a look at the My Time plugin because I wanted a time tracking solution and that this is currectly lacking from the excellent Todo+ plugin.
+Having a look at the MyTime plugin (https://github.com/codicelq/mytime) because I wanted a time tracking solution and that this is currectly lacking from the excellent Todo+ plugin.
 
 Created a snippet to directyl add current time 
 
