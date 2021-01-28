@@ -29,6 +29,13 @@
         "body": "$CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE",
         "description": "time"
     },
+    "today": {
+        "prefix": "today",
+        "scope": "markdown,yaml",
+        "body": "$CURRENT_DAY_NAME $CURRENT_DATE $CURRENT_MONTH_NAME $CURRENT_YEAR${1}",
+        "description": "today"
+    },
+    
     "bash": {
         "prefix": "bash",
         "scope": "markdown,yaml",
@@ -62,5 +69,11 @@
             ""
         ],
         "description": ""
+    },
+    "pbar": {
+        "prefix": "pbar",
+        "scope": "markdown,yaml",
+        "body": "<iframe src=\"https://progress-bar.dev/${1:25}\" frameborder=\"0\" scrolling=\"0\" width=\"170\" height=\"30\" title=\"${1}\"></iframe>",
+        "description": "pbar"
     }
 }
