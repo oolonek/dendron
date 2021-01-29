@@ -2,7 +2,7 @@
 id: 780b75f2-4b67-457a-bd34-d4dcafc97f21
 title: Todo
 desc: ''
-updated: 1610891429764
+updated: 1611865966225
 created: 1610308425589
 ---
 
@@ -10,7 +10,8 @@ created: 1610308425589
 
 2021-01-17 14:49
 
-- [ ] finalize the matchms based ISDB spectral matching script
+- [ ] finalize the matchms based ISDB spectral matching script [[#doing|tag.doing]]
+Work in progress over here https://github.com/mandelbrot-project/spectral_lib_matcher
 
 
 2021-01-10 21:45
@@ -18,7 +19,7 @@ created: 1610308425589
 - [ ] build an automated pipeline for "classical" metabolomics data treatment nothing fancy, just automatize the typical steps:
 
     - [ ] spectral files conversion This should help https://github.com/compomics/ThermoRawFileParser
-    - [ ] mzmine
+    - [ ] mzmine Some stuff here 
     - [ ] mn generation
     - [ ] annotation
     - [ ] report generation

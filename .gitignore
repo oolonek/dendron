@@ -6,4 +6,4 @@ build
 .dendron.port
 TODO
 daily.*
-scratch.*
+*scratch*

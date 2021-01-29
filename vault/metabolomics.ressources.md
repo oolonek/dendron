@@ -1,0 +1,19 @@
+---
+id: da6bdcee-3191-4709-979e-cd88ade222e0
+title: Ressources
+desc: ''
+updated: 1611937171185
+created: 1611937101265
+---
+
+(once pasted on the MARS slack channel)
+
+Metabolomics Databases (Met Soc) http://metabolomicssociety.org/resources/metabolomics-databases (edited) 
+
+Moteur de recherche Google pour la recherche de datasets https://toolbox.google.com/datasetsearch (edited) 
+
+Example avec les mots clés "arabidopis mass spectrometry" https://toolbox.google.com/datasetsearch/search?query=arabidopsis%20mass%20spectrometry&docid=gObMnqKKWSkjxWOeAAAAAA%3D%3D
+
+Moteur de recherche OmicsDI de datasets (focus métabo, comme l'indique le nom) https://www.omicsdi.org
+
+https://www.ebi.ac.uk/
