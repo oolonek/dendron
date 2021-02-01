@@ -2,9 +2,27 @@
 id: 8a627ba7-8b8e-483a-aaed-5142f455b602
 title: Papers
 desc: ''
-updated: 1611504310757
+updated: 1612120972144
 created: 1610194509817
 ---
+2021-01-31 20:19
+
+
+# Interoperable chemical structure search service
+
+https://jcheminf.biomedcentral.com/articles/10.1186/s13321-019-0367-2
+
+
+
+
+2021-01-29 19:22
+
+# Mapping the space of chemical reactions using attention-based neural networks
+
+Reymond's paper on reactions based tmaps. Try this on BNICE set of react or on MetaNetX
+
+https://www.nature.com/articles/s42256-020-00284-w.epdf?sharing_token=CGHu6tcqBiFmC1nRfnOrxNRgN0jAjWel9jnR3ZoTv0NiJSBmQfyOiLfbwen1TgEszNU5Xao_0Gs7D0u8tLUOJxaLAUc469WZKWG5K9wsqIe98dZOREVhQ33gqcr33AgNUjnp4cVXojp4aKe2xCbWtNaxOZtpOjBOsdX3O8yxVkI%3D
+
 
 
 
