@@ -2,9 +2,19 @@
 id: 8a627ba7-8b8e-483a-aaed-5142f455b602
 title: Papers
 desc: ''
-updated: 1612120972144
+updated: 1612367536379
 created: 1610194509817
 ---
+
+
+2021-02-03 16:51
+
+# Data integration enables global biodiversity synthesis
+
+https://www.pnas.org/content/118/6/e2018093118
+
+
+
 2021-01-31 20:19
 
 

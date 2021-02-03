@@ -2,7 +2,7 @@
 id: 921bfd68-ba9d-48a3-9d51-650705f99f6c
 title: Mietchen
 desc: ''
-updated: 1612350569059
+updated: 1612358223923
 created: 1612349651657
 ---
 
@@ -19,6 +19,8 @@ https://etherpad.wikimedia.org/p/Pierre-Marie_Allard-and-Daniel-Mietchen
 * very rough https://github.com/Daniel-Mietchen/ideas/issues?q=is%3Aissue+is%3Aopen+sort%3Acomments-desc
 
 * more formally https://riojournal.com/browse_journal_articles.php?form_name=filter_articles&sortby=0&journal_id=17&search_in_=0&section_type%5B%5D=179
+
+//TODO Publish an hyper-early stage research project idea on Rio
 
 * community-centric https://jogl.io
 
@@ -58,7 +60,7 @@ some similarities with Inciteful.xyz ?
 https://en.wikipedia.org/wiki/Open_research
 
  Share it as soon as you get the result/data but also idea/process 
- See intrioductory video 
+ See introductory video 
 
 New collaborators
 https://github.com/Daniel-Mietchen/pledges
@@ -73,6 +75,9 @@ So in fact there is no link to the french page of the blue obelisk project.
 See how to make an interlanguage link https://en.wikipedia.org/wiki/Help:Interlanguage_links#:~:text=This%20help%20page%20is%20a%20how%2Dto%20guide.&text=It%20is%20not%20one%20of,levels%20of%20consensus%20and%20vetting.&text=Interlanguage%20links%20are%20links%20from,equivalent%20page%20in%20another%20language.&text=As%20links%20in%20the%20%22Languages%22%20section%20of%20the%20page's%20left%20sidebar
 
 First wikipedia edit :) https://fr.wikipedia.org/w/index.php?title=Peter_Murray-Rust&oldid=179529908
+
+Also added links to Panton Principles and the World Wide Molecular Matrix
+https://fr.wikipedia.org/w/index.php?title=Peter_Murray-Rust&oldid=179531097
 
 
 ## Concrete societal impact of research / open-research
