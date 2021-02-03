@@ -2,7 +2,7 @@
 id: d116d7cc-dbf7-4876-b182-7065c314703e
 title: Pandas
 desc: ''
-updated: 1610378025793
+updated: 1612294635960
 created: 1609770454495
 ---
 
@@ -46,3 +46,10 @@ pd.cut(df.Age,bins=[0,2,17,65,99],labels=['Toddler/Baby','Child','Adult','Elderl
 ```python
 pd.merge(df1, df2, left_index=True, right_index=True)
 ```
+
+# replace specific string in values
+
+```python
+df['Column2'] = df.Column2.str.replace('b,?' , '')
+```
+

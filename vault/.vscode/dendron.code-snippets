@@ -38,8 +38,20 @@
     "bash": {
         "prefix": "bash",
         "scope": "markdown,yaml",
-        "body": "```bash\n```",
+        "body": "```bash\n${1}```",
         "description": "bash chunk"
+    },
+    "python": {
+        "prefix": "python",
+        "scope": "markdown,yaml",
+        "body": "```python\n${1}```",
+        "description": "python chunk"
+    },
+    "codechunck": {
+        "prefix": "codechunck",
+        "scope": "markdown,yaml",
+        "body": "#%%\n# What the following line(s) do is to ${1}",
+        "description": "python codechunck chunk"
     },
     "local_link_raw": {
         "prefix": "local_link_raw",
