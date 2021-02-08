@@ -2,9 +2,23 @@
 id: 6d27ab67-59cd-43c1-ba48-974d88ab3b71
 title: Viewlist
 desc: ''
-updated: 1611264118123
+updated: 1612769719474
 created: 1610469913749
 ---
+
+2021-02-08 08:29
+https://www.youtube.com/watch?v=kqSzLo9fenk
+
+A friendly introduction to Bayes Theorem and Hidden Markov Models
+https://github.com/luisguiserrano/hmm
+
+Such approaches seem perfectly adapted to noisy datasets such as mass spec data from which we would like to fish signal related to bioactive analytes.
+We have some priors bioactivity of the extracts, previously reported scaffolds on the target
+We could propagate information about seed compounds trough spectral similarity, seeing cos score aa a coarse probability of the molecule showing the same properties then the seed.
+Check for existing implementations of Bayesian approach in drug discovery or in the exploration of mass spectral data set.
+
+
+
 
 2021-01-20 13:31
 
