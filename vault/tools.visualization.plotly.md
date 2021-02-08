@@ -2,13 +2,27 @@
 id: 6821fa85-f66e-4490-9fd5-4e9542f69ea0
 title: Plotly
 desc: ''
-updated: 1612380765134
+updated: 1612550696435
 created: 1612380643104
 ---
 
-# plotly html integration (merci Jo)
+# plotly html integration
 
-https://ig248.gitlab.io/post/2018-11-05-plotly-sample/
+https://ig248.gitlab.io/post/2018-11-05-plotly-sample/  (merci Jo)
+
+after a bunch of slightly outdate tutorial I found this one wich worked in my case
+
+https://medium.com/analytics-vidhya/how-to-export-a-plotly-chart-as-html-3b5df568df4a
+
+ 
+ just embbed like this
+
+```html
+<div class="container-fluid" style="margin-top:40px">
+  <iframe src="sariette_pos_pos_organisms_sunburst.html" width="100%" height="600" style="border:none;"></iframe>
+</div>
+```
+
 
 
 # customization of fig (margin/titles and other nasty stuff)

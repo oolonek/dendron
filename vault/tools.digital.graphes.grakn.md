@@ -2,7 +2,7 @@
 id: fc46fd05-843e-40a8-a31b-361e15e62b1e
 title: Grakn
 desc: ''
-updated: 1610558846667
+updated: 1612524617191
 created: 1610558576907
 ---
 
@@ -15,3 +15,8 @@ Learn more about fundamentals of hypergraphs and graphs theory. https://en.wikip
 
 Paste here all the old codes used with the previous Grakn version.
 Try to implement Lotus as grakn base.
+
+## Semantic Web Standards and Grakn
+
+http://dev.grakn.ai/docs/comparisons/semantic-web-and-grakn
+
