@@ -2,7 +2,7 @@
 id: 6d27ab67-59cd-43c1-ba48-974d88ab3b71
 title: Viewlist
 desc: ''
-updated: 1612769719474
+updated: 1612771340418
 created: 1610469913749
 ---
 
@@ -17,6 +17,7 @@ We have some priors bioactivity of the extracts, previously reported scaffolds o
 We could propagate information about seed compounds trough spectral similarity, seeing cos score aa a coarse probability of the molecule showing the same properties then the seed.
 Check for existing implementations of Bayesian approach in drug discovery or in the exploration of mass spectral data set.
 
+Other stuff there https://serrano.academy
 
 
 
@@ -24,7 +25,7 @@ Check for existing implementations of Bayesian approach in drug discovery or in 
 
 https://www.buzzsprout.com/1244474/7197082
 
-- A quick tought experiment : "Imagine yourself and your bankaccount in 20 years ... What if it didn't change ? Would you see this as a failure ?" 
+- A quick thought experiment : "Imagine yourself and your banc account in 20 years ... What if it didn't change ? Would you see this as a failure ?" 
 
 - investigate "commodities" ... could well be the root of the problem. We want to be confortable. We are dissatisfied. If you work on contentment and help people to encounter contentment and satisfaction in any situation you abolish the whole problem. See Ushiyama and Sawaki
 - manufacture of dissapointment

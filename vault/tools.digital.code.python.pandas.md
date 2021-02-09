@@ -2,7 +2,7 @@
 id: d116d7cc-dbf7-4876-b182-7065c314703e
 title: Pandas
 desc: ''
-updated: 1612294635960
+updated: 1612789065387
 created: 1609770454495
 ---
 
@@ -52,4 +52,22 @@ pd.merge(df1, df2, left_index=True, right_index=True)
 ```python
 df['Column2'] = df.Column2.str.replace('b,?' , '')
 ```
+
+# drop column according to regex
+
+```python
+df = df[df.columns.drop(list(df.filter(regex='Test')))]
+```
+
+# If Na replace with value of the same row but another column
+
+https://stackoverflow.com/a/29177664
+
+```python
+df.Temp_Rating.fillna(df.Farheit, inplace=True)
+del df['Farheit']
+df.columns = 'File heat Observations'.split()
+
+```
+
 

@@ -2,9 +2,16 @@
 id: 8a627ba7-8b8e-483a-aaed-5142f455b602
 title: Papers
 desc: ''
-updated: 1612367536379
+updated: 1612809762925
 created: 1610194509817
 ---
+
+2021-02-08 19:42
+
+# Automated assembly of a reference taxonomy for phylogenetic data synthesis
+
+The original OTOL paper
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5515096/
 
 
 2021-02-03 16:51

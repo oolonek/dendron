@@ -2,7 +2,7 @@
 id: c1fbbdc7-aa99-4a6c-b6b8-629d59dbd276
 title: Mandelbrot
 desc: ''
-updated: 1609753340240
+updated: 1612800007709
 created: 1608048463386
 ---
 
