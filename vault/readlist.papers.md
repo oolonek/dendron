@@ -2,9 +2,37 @@
 id: 8a627ba7-8b8e-483a-aaed-5142f455b602
 title: Papers
 desc: ''
-updated: 1612809762925
+updated: 1612948518689
 created: 1610194509817
 ---
+
+
+# Readlist of publications
+
+
+This is a dump.
+Entries here should be sent to their respective dendron notes when treated.
+
+
+2021-02-10 10:13
+
+# Large-scale tandem mass spectrum clustering using fast nearest neighbor searching
+
+
+https://www.biorxiv.org/content/10.1101/2021.02.05.429957v1
+
+[[#spectral_comparison|tag.spectral_comparison]]
+
+2021-02-09 11:45
+
+# NetLSD: Hearing the Shape of a Graph
+
+Graph comparison an analysis at large scale
+
+https://arxiv.org/pdf/1805.10712.pdf
+
+[[#graph|tag.graph]]
+
 
 2021-02-08 19:42
 
@@ -13,6 +41,8 @@ created: 1610194509817
 The original OTOL paper
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5515096/
 
+[[#taxo|tag.taxo]] 
+
 
 2021-02-03 16:51
 
@@ -20,7 +50,7 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5515096/
 
 https://www.pnas.org/content/118/6/e2018093118
 
-
+[[#biodiversity|tag.biodiversity]] [[#gbif|tag.gbif]]
 
 2021-01-31 20:19
 

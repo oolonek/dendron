@@ -2,7 +2,7 @@
 id: d116d7cc-dbf7-4876-b182-7065c314703e
 title: Pandas
 desc: ''
-updated: 1612789065387
+updated: 1613047620747
 created: 1609770454495
 ---
 
@@ -20,6 +20,11 @@ df.loc[:, df.columns.str.contains('alp')]
 
 ```python
 df.rename(columns={'oldName1': 'newName1', 'oldName2': 'newName2'}, inplace=True)
+```
+## Rename columns by position
+
+```python
+df.rename(columns={ df.columns[1]: "your value" }, inplace = True)
 ```
 
 ## Check df datatype
@@ -69,5 +74,6 @@ del df['Farheit']
 df.columns = 'File heat Observations'.split()
 
 ```
+
 
 

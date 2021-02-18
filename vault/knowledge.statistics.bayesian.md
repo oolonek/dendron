@@ -2,7 +2,7 @@
 id: 80c4f709-39bd-47e3-949f-82f4c37e6413
 title: Bayesian
 desc: ''
-updated: 1612857456167
+updated: 1612877038420
 created: 1608654292868
 ---
 
@@ -44,9 +44,17 @@ In the frame of the mandelbrot project we could try to functionalize our drug di
 - some priors could be defined: we know that scaffold X and Y usually display these activities.
 
 
+# Resources
+
+# podcasts
+
+https://www.learnbayesstats.com/episodes/4#showEpisodes
+
 # readlist
 
 https://researchoutreach.org/articles/bayesian-inference-for-21st-century-drug-development-and-approval/
 
 
 See paper notes on Hidden Markov Models PMA8_147
+
+

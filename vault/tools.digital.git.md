@@ -2,7 +2,7 @@
 id: 99ce9016-5209-48d5-850c-046a18555453
 title: Git
 desc: ''
-updated: 1611659348475
+updated: 1613470122529
 created: 1609525494924
 stub: true
 ---
@@ -31,3 +31,9 @@ To set it up so that it does this by default while you're on the dev branch:
 
 `git branch --set-upstream-to dev origin/dev`
 
+
+# Reset to specific commit and push to master 
+
+ git reset --hard <commit-hash>
+ git push -f origin main
+ 
