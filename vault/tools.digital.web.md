@@ -2,7 +2,7 @@
 id: 7e06f6eb-35b2-4eb0-aa4d-f1697e73e104
 title: Web
 desc: ''
-updated: 1611827742349
+updated: 1613732056204
 created: 1611825283591
 ---
 
@@ -44,6 +44,7 @@ This is what I did up to now and what I plan to do to tackle this
     - [ ] http://pomf.se/
     - [ ] https://www.netlify.com/
     - [ ] https://wowchemy.com/
+        - [ ] https://www.jameswright.xyz/post/deploy-hugo-academic-using-githubio/
 
 ## Object (of the note/paragraph/text/paper/project)
 This is a self contained ctno snippet. It does not aim to introduce anything other than itself.

@@ -18,3 +18,9 @@ http://robot.obolibrary.org/
 
 https://stackoverflow.com/questions/43524943/creating-rdf-file-using-csv-file-as-input
 
+check in RDFlib
+
+https://rdflib.readthedocs.io/en/stable/index.html
+
+
+
