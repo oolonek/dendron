@@ -15,11 +15,11 @@ jobs:
     - name: Install npm dependencies
       run: npm install
       
-   - name: Install latest dendron-cli
-     run: npm install @dendronhq/dendron-cli@latest
+    - name: Install latest dendron-cli
+      run: npm install @dendronhq/dendron-cli@latest
     
-   - name: Install latest dendron-11ty
-     run: npm install @dendronhq/dendron-11ty@latest
+    - name: Install latest dendron-11ty
+      run: npm install @dendronhq/dendron-11ty@latest
 
     - name: Build pod
       run: npm run dendron-cli -- buildSiteV2 --wsRoot .  --stage prod
