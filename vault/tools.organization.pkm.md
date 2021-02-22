@@ -2,7 +2,7 @@
 id: b0b6fa01-0930-41ed-9e98-0c783e3886f6
 title: Pkm
 desc: ''
-updated: 1610886605818
+updated: 1613999078312
 created: 1609696713098
 ---
 
@@ -26,3 +26,7 @@ Notebooks are following the strikethru system https://www.kickstarter.com/projec
 I am on my 8th notebook using the stikethru system so I guess it's a match for me (lets see how it goes with dendron, the time you stick to a tool seems to be a good measure of it's usefulness. Sometimes you get pretty excited about flashy tools with all the bells and whistle be if you drop them after a week, you know they might not worth investing much more time)
 
 - [ ] investigate more on digital / analogue links in various domains (note taking, pkm). Maybe more widely also, explore links between these two whole "worlds". Thinking about it it is actually the very core definition of bioinformatics. A discipline which is by essence at the interface of analogue and digital worlds ... 
+
+# Obsidian thread
+
+https://forum.obsidian.md/t/cataloging-classification-information-science-pkms-and-you/10071

@@ -2,7 +2,7 @@
 id: e0dd6f2b-e762-4ce7-a819-d29ec99dd0cd
 title: Notes
 desc: ''
-updated: 1611680061259
+updated: 1613998700250
 created: 1610657396412
 ---
 
@@ -12,3 +12,7 @@ created: 1610657396412
 [[nesslabs]]
 
 https://nesslabs.com/from-note-taking-to-note-making?ck_subscriber_id=1121227337&utm_source=convertkit&utm_medium=email&utm_campaign=Creating+Habits+%F0%9F%A7%A4%20-%205117179
+
+
+https://www.scotthyoung.com/blog/2021/01/11/how-to-take-notes/
+

@@ -12,6 +12,11 @@ jobs:
     - name: Checkout source
       uses: actions/checkout@v2
 
+
+    - name: Clean cache
+      run: npm cache clean --force
+    - name: rm node modules
+      run: rm -rf node_modules
     - name: Install npm dependencies
       run: npm install
       
