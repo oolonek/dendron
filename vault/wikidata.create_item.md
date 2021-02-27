@@ -2,7 +2,7 @@
 id: 235ba226-b0da-4c23-bbb7-c46c4a65d2f1
 title: Create_item
 desc: ''
-updated: 1614452844877
+updated: 1614453669731
 created: 1614258921986
 ---
 
@@ -37,7 +37,7 @@ http://gni.globalnames.org/name_strings?search_term=trigonostemon+cherrieri&comm
 
 ![](/assets/images/2021-02-27-18-40-20.png)
 
-Alternatively you can use gnfinder in your command line interface to check for the spelling of your organism string.
+Alternatively you can use gnfinder (https://github.com/gnames/gnfinder) in your command line interface to check for the spelling of your organism string.
  
 Beloow you see that the misspelled _Trigonstemion cherrieri_ is correctly resolved to _Trigonostemon cherrieri_.
 
