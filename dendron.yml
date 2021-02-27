@@ -23,7 +23,7 @@ site:
         - garage
     siteRootDir: docs
     logo: "vault/assets/images/network-5572119__340.png"
-    siteUrl: "https://oolonek.github.io/dendron"
+    siteUrl: "https://oolonek.github.io/"
     siteProtocol: https
     usePrettyRefs: true
     gh_edit_repository: "https://github.com/oolonek/dendron"
