@@ -8,18 +8,20 @@ created: 1614258921986
 
 # Manual addition of a documented structure-organism pair to Wikidata
 
+## Select a documented structure-organism pair
 
-## Fetching the information for the documented structure-organism pair
+Throughout this demonstration, we are going to use the following example:
+> [trigocherrin A](https://pubchem.ncbi.nlm.nih.gov/compound/101556657) is found in [_Trigonostemon cherrieri_](http://gni.globalnames.org/name_strings?search_term=trigonostemon+cherrieri&commit=Search), as stated in [Trigocherrin A, the first natural chlorinated daphnane diterpene orthoester from Trigonostemon cherrieri](https://doi.org/10.1021/OL2030907).
 
+## Fetch the information for the documented structure-organism pair
 
 ### Structure
 
-Search pubchem for your compound, here Trigocherrin A
-https://pubchem.ncbi.nlm.nih.gov/compound/101556657
+Search PubChem for your compound, here [trigocherrin A](https://pubchem.ncbi.nlm.nih.gov/#query=%22trigocherrin%20A%22). This leads to [https://pubchem.ncbi.nlm.nih.gov/compound/101556657](https://pubchem.ncbi.nlm.nih.gov/compound/101556657).
 
 ![](/assets/images/2021-02-25-14-15-54.png)
 
-Fetch its name, InChIKey, InChI, Canonical and Isomeric SMILES.
+From there, you can fetch the compound's name, InChIKey and InChI as well as its Canonical and Isomeric SMILES.
 Here we keep, respectively:
 
 ```
@@ -29,18 +31,15 @@ Here we keep, respectively:
 * CC1C2C(C3C4C1(C5=CC(=C(Cl)Cl)C(C5(C(C6(C4O6)COC(=O)C)OC(=O)C)O)OC(=O)C7=CC=CC=C7)OC(O2)(O3)C8=CC=CC=C8)(C(=C)C)O
 * C[C@@H]1C2[C@]([C@H]3[C@H]4[C@]1(C5=CC(=C(Cl)Cl)[C@@H]([C@]5([C@@H]([C@@]6([C@H]4O6)COC(=O)C)OC(=O)C)O)OC(=O)C7=CC=CC=C7)OC(O3)(O2)C8=CC=CC=C8)(C(=C)C)O
 ```
+
 ### Organism
 
-You can check if your organism name is correctly spelled using the Global Names resolver service 
-
-http://gni.globalnames.org/name_strings?search_term=trigonostemon+cherrieri&commit=Search
+You can check if your organism name is correctly spelled using the Global Names resolver service: [http://gni.globalnames.org/name_strings?search_term=trigonostemon+cherrieri&commit=Search](http://gni.globalnames.org/name_strings?search_term=trigonostemon+cherrieri&commit=Search).
 
 ![](/assets/images/2021-02-27-18-40-20.png)
 
-Alternatively you can use gnfinder (https://github.com/gnames/gnfinder) in your command line interface to check for the spelling of your organism string.
+Alternatively, you can use [gnfinder](https://github.com/gnames/gnfinder) in your command line interface to check for the spelling of your organism string.
  
-Beloow you see that the misspelled _Trigonstemion cherrieri_ is correctly resolved to _Trigonostemon cherrieri_.
-
 ```echo "Trigonostemion cherrieri" | gnfinder find -c -l eng
 
 {
@@ -90,62 +89,82 @@ Beloow you see that the misspelled _Trigonstemion cherrieri_ is correctly resolv
 }
 ```
 
+For misspellings like _Trigonstemion cherrieri_, gnfinder can help resolve them, in this case to _Trigonostemon cherrieri_.
+
+
 ### Reference
 
-Make sure that you have the correct reference DOI.
-Here : **10.1021/ol2030907**
+Make sure that you have the correct [Digital Object Identifier (DOI)](https://www.doi.org/doi_handbook/Glossary.html#doi) for it.
+For "[Trigocherrin A, the first natural chlorinated daphnane diterpene orthoester from Trigonostemon cherrieri](https://doi.org/10.1021/OL2030907)", this is  **10.1021/ol2030907**. Note that DOIs are uppercase-normalized in Wikidata.
 
-## Checking for the presence of your compound in Wikidata
+## Check for the presence of your compound in Wikidata
 
-Using the InChIKey, run a SPARQL query to check if your compound is not present in wikidata.
-Adapt the query by pasting your own InChIkey
+Using the compound's InChIKey (i.e. ```QOVGHDRCAGYGEB-FFZYJECLSA-N``` for trigocherrin A), run a SPARQL query to check if your compound is present in Wikidata or not:
 
-https://w.wiki/32WF
 
-If your compound is already present you can directly skip to the Add the found in taxon statement section below.
+```SPARQL
+SELECT ?item ?itemLabel WHERE {
+  VALUES ?classes {
+    wd:Q11173 # chemical compound
+    wd:Q59199015 # group of stereoisomers
+    wd:Q79529 # chemical substance
+    wd:Q17339814 # group of chemical substances
+    wd:Q47154513 # structural class of chemical compounds
+  }
+  ?item wdt:P31 ?classes. # instance of
+  ?item wdt:P235 'QOVGHDRCAGYGEB-FFZYJECLSA-N'
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+}
+```
+[Try this query](https://w.wiki/32zU). You can adapt it by replacing the InChIKey with the one for your compound.
 
-## Adding your data manually to Wikidata.
+If your compound is already present on Wikidata, you can directly skip to the ```Add the biological source information``` section below.
 
-First you will need to create a Wikidata account [https://www.wikidata.org/w/index.php?title=Special:CreateAccount&returnto=Wikidata%3AMain+Page](https://www.wikidata.org/w/index.php?title=Special:CreateAccount&returnto=Wikidata%3AMain+Page)
+## Add your data manually to Wikidata
 
-Then you can start by reading the Wikidata introduction page [https://www.wikidata.org/wiki/Wikidata:Introduction](https://www.wikidata.org/wiki/Wikidata:Introduction) and have a look at the Wikidata Tours page [https://www.wikidata.org/wiki/Wikidata:Tours](https://www.wikidata.org/wiki/Wikidata:Tours)
+First, if you do not have a Wikidata account already, it is advisable that you create one via [https://www.wikidata.org/wiki/Special:CreateAccount](https://www.wikidata.org/wiki/Special:CreateAccount). While an account is not strictly required for manual edits, having one will be useful if you want to contribute more than once, and it helps in getting your contributions recognized. Note that Wikidata accounts are integrated with accounts across the Wikimedia ecosystem, so if you already have an account on, say, any Wikipedia or on Wikispecies, then you can use the same credentials on Wikidata.
 
-Now that we are all set up, you can go on the wikidata create new item page [https://www.wikidata.org/wiki/Special:NewItem](https://www.wikidata.org/wiki/Special:NewItem)
+If you are unfamiliar with how Wikidata works, you can start by reading the Wikidata introduction page [https://www.wikidata.org/wiki/Wikidata:Introduction](https://www.wikidata.org/wiki/Wikidata:Introduction) and have a look at the Wikidata Tours page [https://www.wikidata.org/wiki/Wikidata:Tours](https://www.wikidata.org/wiki/Wikidata:Tours).
+
+Now that you are all set up, you can go to Wikidata's page for creating new items, [https://www.wikidata.org/wiki/Special:NewItem](https://www.wikidata.org/wiki/Special:NewItem):
 
 
 ![](/assets/images/2021-02-25-14-18-03.png)
 
-An empty page with a new wikidata identifier is created 
+An empty page with a new Wikidata identifier is created 
 
 ![](/assets/images/2021-02-25-14-18-50.png)
 
-### Adding the chemical compound information 
+### Add the chemical compound information 
 
-Create a new statement 'is an instance of'
+Create a new statement for ```is an instance of```
 
 ![](/assets/images/2021-02-25-14-20-08.png)
 
-and select chemical compound 
+and select chemical compound (i.e. [Q11173](https://www.wikidata.org/wiki/Q11173)):
 
 ![](/assets/images/2021-02-25-14-20-58.png)
 
-Since your created a new object which is an instance of a chemical compound, the new statements related to chemical compounds will be automatically proposed.
+Click ```publish``` to save your changes and make them public.
+
+Since you created a new item about an instance of a chemical compound, the user interface will automatically propose to you a set of additional statements commonly found on items about chemical compounds.
 
 ![](/assets/images/2021-02-25-14-22-44.png)
 
-You can go on and fill them
+You can then go on and fill these in.
 
-Here we start by the InChIKey. 
-Mind the little flag which will automatically tell you if you have some problems with the recently created statements
+Here, we start with the InChIKey. 
+Note the little flag which will automatically tell you if you have some problems with the recently created statements.
 
 ![](/assets/images/2021-02-25-14-24-34.png)
 
-Here Wikidata tells us that if we add an InChiKey we will need to also add an InChI. Logical, but good to have a reminder !
+Here, Wikidata tells us that if we add an InChiKey, we will need to also add an InChI. Logical, but good to have a reminder !
 
-Let's go ahead and add this InChI string
+Let's go ahead and add the InChI string.
 
-Likewise the addition of an isomeric SMILES string will require us to add a Canonical SMILES
-Mind that you could have to copy and paste the SMILES string from Pubchem to a plain text editor and then back to wikidata because of some formatting issues when copy pasting directly from Pubchem.
+Likewise, the addition of an isomeric SMILES string will require us to add a Canonical SMILES.
+
+Note that you might have to copy and paste the SMILES string from PubChem to a plain text editor and then back to Wikidata because of some formatting issues when copy pasting directly from PubChem.
 
 ```
 C[C@@H]1C2[C@]([C@H]3[C@H]4[C@]1(C5=CC(=C(Cl)Cl)[C@@H]([C@]5([C@@H]([C@@]6([C@H]4O6)COC(=O)C)OC(=O)C)O)OC(=O)C7=CC=CC=C7)OC(O3)(O2)C8=CC=CC=C8)(C(=C)C)O
@@ -153,54 +172,87 @@ C[C@@H]1C2[C@]([C@H]3[C@H]4[C@]1(C5=CC(=C(Cl)Cl)[C@@H]([C@]5([C@@H]([C@@]6([C@H]
 CC1C2C(C3C4C1(C5=CC(=C(Cl)Cl)C(C5(C(C6(C4O6)COC(=O)C)OC(=O)C)O)OC(=O)C7=CC=CC=C7)OC(O2)(O3)C8=CC=CC=C8)(C(=C)C)O
 ```
 
-### Adding the biological source information
+### Add the biological source information
 
-Now let's add the found in taxon property
+Now let's add the ```found in taxon``` property ([P703](https://www.wikidata.org/wiki/Property:P703)).
 
-Just click on add a new statement and type in the first letters of the property you want to add 
+Just click on ```Add a new statement``` and type in the first letters of the property you want to add:
 
 ![](/assets/images/2021-02-25-14-31-56.png)
 
-Again type in the first letters of the taxa and if the organism is present it will autocomplete. Here it's Trigonostemon cherrieri.
-
-(describe how to proceed if the organism is not present on wikidata)
+Again, type in the first letters of the taxon, and if the organism is present, it will autocomplete. Here is how this looks like for _Trigonostemon cherrieri_:
 
 ![](/assets/images/2021-02-25-14-33-14.png)
 
-Click publish to validate your action.
+Click ```publish``` to save your changes and make them public.
 
-### Adding the reference documenting the structure-organism pair
 
-Finally since we report documented structure-organisms pairs we need to add the reference of this newly created pair.
-This happens just below the taxon we just added. Click on the 0 reference link and then on add reference
+If your target taxon is not yet present on Wikidata and you are sure you have a valid taxon name that is spelled correctly, then you can go to [https://www.wikidata.org/wiki/Special:NewItem](https://www.wikidata.org/wiki/Special:NewItem), as described in the ```Add your data manually to Wikidata``` section. For items about taxa, the ```instance of``` statement should have a value ```taxon``` (i.e. [Q16521](https://www.wikidata.org/wiki/Q16521)). As for chemical compounds, the user interface will then suggest to you further statements to add. For taxa, these include taxon name, parent taxon and taxon rank.
+
+
+### Add the reference documenting the structure-organism pair
+
+Finally, since we report documented structure-organisms pairs, we need to add the reference for this newly created ```compound found in taxon``` relationship.
+This happens on the item about the compound, just below the ```found in taxon``` statement. Click on the ```0 references``` link and then on ```add reference```:
 
 ![](/assets/images/2021-02-25-14-35-33.png)
 
-Here we use the stated in property (PXXXX)
+Here, we use the ```stated in``` property ([P248](https://www.wikidata.org/wiki/Property:P248)):
 
 ![](/assets/images/2021-02-25-14-36-33.png)
 
-Now type in the first letters or word of the scientific publication documenting the natural product occurence, autocompletion happens again.
-Describe which steps to take if the reference is not existing 
+Now, type in the first letters or word of the scientific publication documenting the natural product occurence, autocompletion happens again. Note that multiple publications might have the same title, and that there could be minor differences in punctuation or special characters between the information you and Wikidata have about the same reference. If you are not sure whether your target reference is already in Wikidata, you can use its DOI to check, as outlined in the ```Check whether your target reference is already on Wikidata``` section.
 
 ![](/assets/images/2021-02-25-14-38-54.png)
 
-Click the Publish action link above 
+Click ```publish``` to save your changes and make them public.
 
 ![](/assets/images/2021-02-25-14-39-48.png)
 
+### Check whether your target reference is already on Wikidata
+
+If you are not sure whether your target reference is already in Wikidata, you can use its DOI to check. For our DOI ```10.1021/ol2030907```, the URL [https://scholia.toolforge.org/doi/___10.1021/ol2030907___](https://scholia.toolforge.org/doi/10.1021/ol2030907) will lead you to a [Scholia](https://www.wikidata.org/wiki/Wikidata:Scholia) page about this publication: [https://scholia.toolforge.org/work/Q83059010](https://scholia.toolforge.org/work/Q83059010). Scholia visualizes information from Wikidata, so if it has an entry for your target reference, then so does Wikidata, and both of them will use the same identifier (in this case [Q83059010](https://www.wikidata.org/wiki/Q83059010)). If you prefer to resolve your DOI to Wikidata directly, you can do so by using the uppercase-normalized DOI in the following URL pattern: [https://hub.toolforge.org/P356:**10.1021/OL2030907**](https://hub.toolforge.org/P356:10.1021/OL2030907), which will lead you to the respective Wikidata page, in this case [Q83059010](https://www.wikidata.org/wiki/Q83059010).
+
+If you think that no Wikidata entry exists for your target reference, you can use the DOI in the URL pattern [https://sourcemd.toolforge.org/index_old.php?id=**10.1021/ol2030907**&doit=Check+source](https://sourcemd.toolforge.org/index_old.php?id=10.1021/ol2030907&doit=Check+source), which will trigger a check with both Crossref and Wikidata, and if no Wikidata entry can be found, the metadata from Crossref will be fetched and presented to you for creating the respective Wikidata item semi-automatically. Using such semi-automated workflows does require and account that is a minimum number of days old and has made a minimum number of edits on Wikidata.
+
+
 ## Voila !
 
-You have created your first documented structure-organism pairs and made a valuable contribution to the community.
-You can add further statements (Molecular Formula, splash code linking to spectra etc etc)
+You have added your first documented structure-organism relationship to Wikidata and made a valuable contribution to the community.
+You can add further statements, e.g. ```molecular formula```, or ```SPLASH code``` for linking to spectral data.
 
-This manually created entry is the following one https://www.wikidata.org/wiki/Q105674316
+The Wikidata entry [https://www.wikidata.org/wiki/Q105674316](https://www.wikidata.org/wiki/Q105674316) has been started using these instructions.
 
-You can run a SPARQL query and check that everything went smoothly https://w.wiki/32WZ
+You can run a SPARQL query and check that everything went smoothly by modifying the InChiKey line in the following [SPARQL query](https://w.wiki/32zb):
 
-
-
-
-
-
-
+```SPARQL
+SELECT ?item ?itemLabel ?taxonLabel ?artLabel WHERE {
+  VALUES ?classes {
+    wd:Q11173 # chemical compound
+    wd:Q59199015 # group of stereoisomers
+    wd:Q79529 # chemical substance
+    wd:Q17339814 # group of chemical substances
+    wd:Q47154513 # structural class of chemical compounds
+  }
+  ?item wdt:P31 ?classes. # instance of
+  ?item wdt:P235 'QOVGHDRCAGYGEB-FFZYJECLSA-N' # InChiKey
+  {
+    ?item p:P1582 ?stmt. # natural product of taxon
+    ?stmt ps:P1582 ?taxon. # natural product of taxon
+    OPTIONAL {
+      ?stmt prov:wasDerivedFrom ?ref. 
+      ?ref pr:P248 ?art. # stated in
+    }
+  }
+  UNION
+  {
+    ?item p:P703 ?stmt. # found in taxon
+    ?stmt ps:P703 ?taxon. # found in taxon
+    OPTIONAL {
+      ?stmt prov:wasDerivedFrom ?ref.
+      ?ref pr:P248 ?art. # stated in
+    }
+  }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+}
+```
