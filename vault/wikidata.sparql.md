@@ -2,7 +2,7 @@
 id: 253c8cb9-357c-4fd2-a868-eed7233f3ea2
 title: Sparql
 desc: ''
-updated: 1614379315009
+updated: 1614491939971
 created: 1611593110381
 ---
 
@@ -50,6 +50,8 @@ https://w.wiki/xMN
 ## all molecules isolated by author X
 
 https://w.wiki/32D6
+https://w.wiki/32$m
+
 
 ## count of the authors having isolated a given scaffold
 

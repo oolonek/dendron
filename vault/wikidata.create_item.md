@@ -2,7 +2,7 @@
 id: 235ba226-b0da-4c23-bbb7-c46c4a65d2f1
 title: Create_item
 desc: ''
-updated: 1614453669731
+updated: 1614536086847
 created: 1614258921986
 ---
 
@@ -97,7 +97,7 @@ For misspellings like _Trigonstemion cherrieri_, gnfinder can help resolve them,
 Make sure that you have the correct [Digital Object Identifier (DOI)](https://www.doi.org/doi_handbook/Glossary.html#doi) for it.
 For "[Trigocherrin A, the first natural chlorinated daphnane diterpene orthoester from Trigonostemon cherrieri](https://doi.org/10.1021/OL2030907)", this is  **10.1021/ol2030907**. Note that DOIs are uppercase-normalized in Wikidata.
 
-## Check for the presence of your compound in Wikidata
+## Check for the presence of your compound in Wikidata <a name="check_compound"></a>
 
 Using the compound's InChIKey (i.e. ```QOVGHDRCAGYGEB-FFZYJECLSA-N``` for trigocherrin A), run a SPARQL query to check if your compound is present in Wikidata or not:
 
@@ -118,9 +118,11 @@ SELECT ?item ?itemLabel WHERE {
 ```
 [Try this query](https://w.wiki/32zU). You can adapt it by replacing the InChIKey with the one for your compound.
 
-If your compound is already present on Wikidata, you can directly skip to the ```Add the biological source information``` section below.
+Alternatively you can use the following Scholia link (replace by your compounds InChIKey) [https://scholia.toolforge.org/inchikey/QOVGHDRCAGYGEB-FFZYJECLSA-N](https://scholia.toolforge.org/inchikey/QOVGHDRCAGYGEB-FFZYJECLSA-N) 
 
-## Add your data manually to Wikidata
+If your compound is already present on Wikidata, you can directly skip to the [Add the biological source information](#add_bio) section below.
+
+## Add your data manually to Wikidata <a name="add_your_data_manually"></a>
 
 First, if you do not have a Wikidata account already, it is advisable that you create one via [https://www.wikidata.org/wiki/Special:CreateAccount](https://www.wikidata.org/wiki/Special:CreateAccount). While an account is not strictly required for manual edits, having one will be useful if you want to contribute more than once, and it helps in getting your contributions recognized. Note that Wikidata accounts are integrated with accounts across the Wikimedia ecosystem, so if you already have an account on, say, any Wikipedia or on Wikispecies, then you can use the same credentials on Wikidata.
 
@@ -135,7 +137,7 @@ An empty page with a new Wikidata identifier is created
 
 ![](/assets/images/2021-02-25-14-18-50.png)
 
-### Add the chemical compound information 
+### Add the chemical compound information <a name="add_chemical"></a>
 
 Create a new statement for ```is an instance of```
 
@@ -172,7 +174,7 @@ C[C@@H]1C2[C@]([C@H]3[C@H]4[C@]1(C5=CC(=C(Cl)Cl)[C@@H]([C@]5([C@@H]([C@@]6([C@H]
 CC1C2C(C3C4C1(C5=CC(=C(Cl)Cl)C(C5(C(C6(C4O6)COC(=O)C)OC(=O)C)O)OC(=O)C7=CC=CC=C7)OC(O2)(O3)C8=CC=CC=C8)(C(=C)C)O
 ```
 
-### Add the biological source information
+### Add the biological source information <a name="add_bio"></a>
 
 Now let's add the ```found in taxon``` property ([P703](https://www.wikidata.org/wiki/Property:P703)).
 
@@ -190,7 +192,7 @@ Click ```publish``` to save your changes and make them public.
 If your target taxon is not yet present on Wikidata and you are sure you have a valid taxon name that is spelled correctly, then you can go to [https://www.wikidata.org/wiki/Special:NewItem](https://www.wikidata.org/wiki/Special:NewItem), as described in the ```Add your data manually to Wikidata``` section. For items about taxa, the ```instance of``` statement should have a value ```taxon``` (i.e. [Q16521](https://www.wikidata.org/wiki/Q16521)). As for chemical compounds, the user interface will then suggest to you further statements to add. For taxa, these include taxon name, parent taxon and taxon rank.
 
 
-### Add the reference documenting the structure-organism pair
+### Add the reference documenting the structure-organism pair <a name="add_ref"></a>
 
 Finally, since we report documented structure-organisms pairs, we need to add the reference for this newly created ```compound found in taxon``` relationship.
 This happens on the item about the compound, just below the ```found in taxon``` statement. Click on the ```0 references``` link and then on ```add reference```:
@@ -209,7 +211,7 @@ Click ```publish``` to save your changes and make them public.
 
 ![](/assets/images/2021-02-25-14-39-48.png)
 
-### Check whether your target reference is already on Wikidata
+### Check whether your target reference is already on Wikidata <a name="check_ref"></a>
 
 If you are not sure whether your target reference is already in Wikidata, you can use its DOI to check. For our DOI ```10.1021/ol2030907```, the URL [https://scholia.toolforge.org/doi/___10.1021/ol2030907___](https://scholia.toolforge.org/doi/10.1021/ol2030907) will lead you to a [Scholia](https://www.wikidata.org/wiki/Wikidata:Scholia) page about this publication: [https://scholia.toolforge.org/work/Q83059010](https://scholia.toolforge.org/work/Q83059010). Scholia visualizes information from Wikidata, so if it has an entry for your target reference, then so does Wikidata, and both of them will use the same identifier (in this case [Q83059010](https://www.wikidata.org/wiki/Q83059010)). If you prefer to resolve your DOI to Wikidata directly, you can do so by using the uppercase-normalized DOI in the following URL pattern: [https://hub.toolforge.org/P356:**10.1021/OL2030907**](https://hub.toolforge.org/P356:10.1021/OL2030907), which will lead you to the respective Wikidata page, in this case [Q83059010](https://www.wikidata.org/wiki/Q83059010).
 
