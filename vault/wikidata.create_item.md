@@ -2,10 +2,13 @@
 id: 235ba226-b0da-4c23-bbb7-c46c4a65d2f1
 title: Create_item
 desc: ''
-updated: 1614536496782
+updated: 1614537136694
 created: 1614258921986
+toc: true
 ---
 
+
+[TOC]
 # Manual addition of a documented structure-organism pair to Wikidata
 
 ## Select a documented structure-organism pair
