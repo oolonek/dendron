@@ -2,7 +2,7 @@
 id: 253c8cb9-357c-4fd2-a868-eed7233f3ea2
 title: Sparql
 desc: ''
-updated: 1614560796398
+updated: 1614560915823
 created: 1611593110381
 ---
 
@@ -25,13 +25,11 @@ https://w.wiki/zkK
 https://w.wiki/vo$
 
 
-
-
 ## compounds displaying a found in a taxon property
 
 https://w.wiki/q$H
 
-# idsm powered !!!
+## idsm powered !!!
 
 
 https://w.wiki/xMJ
@@ -82,15 +80,14 @@ https://w.wiki/32Vr
 
 https://w.wiki/32Vu
 
-### all disticnt antibiotics
+## all disticnt antibiotics
 
 https://w.wiki/32Vv
 
 
-
-
 ## drug-prot interaction 
 
+```SPARQL
 SELECT DISTINCT ?parent_taxon ?parent_taxon_name ?compound ?interaction ?compoundLabel ?geneLabel ?biological_processLabel ?diseaseLabel WHERE {
   #?compound wdt:P2868 ?mesh.
   #?mesh wdt:P486 "D000962".
@@ -123,6 +120,7 @@ SELECT DISTINCT ?parent_taxon ?parent_taxon_name ?compound ?interaction ?compoun
   
 GROUP BY ?parent_taxon ?parent_taxon_name ?compound ?interaction ?compoundLabel ?geneLabel ?biological_processLabel ?diseaseLabel
 #ORDER BY DESC (?count)
+```
 
 
 ## Generic LOTUS queries
@@ -134,7 +132,7 @@ https://w.wiki/$RR with wd: for structure and org
 https://w.wiki/$RU wd: for everyone ...still ok
 https://w.wiki/$SF full monty
 
-# Sachem non-permanent endpoint
+## Sachem non-permanent endpoint
 
 https://idsm.elixir-czech.cz:2443/sachem/#/search
 
@@ -146,7 +144,8 @@ https://idsm.elixir-czech.cz:2443/sachem/#/search
 https://w.wiki/32fa
 https://w.wiki/32fc
 
-# check taxon for a givin INChikey (regex)
+## check taxon for a givin INChikey (regex)
+
 https://w.wiki/32j3
 
 ## chemotax graph queries
