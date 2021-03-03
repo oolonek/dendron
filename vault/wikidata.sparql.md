@@ -2,7 +2,7 @@
 id: 253c8cb9-357c-4fd2-a868-eed7233f3ea2
 title: Sparql
 desc: ''
-updated: 1614560915823
+updated: 1614710602480
 created: 1611593110381
 ---
 
@@ -155,3 +155,20 @@ https://w.wiki/32qC
 
 
 https://w.wiki/32qN
+
+
+# to tweet 
+
+All the compounds found in the Streptomyces avermitilis taxon and the references documenting this link. 
+https://w.wiki/33V$
+
+We can remove the references to get all unique compounds found in the Streptomyces coelicolor
+
+https://w.wiki/33WG
+
+
+
+All the biological taxa where the chemical compound erysodine is found in.
+https://w.wiki/33WA
+
+

@@ -2,7 +2,7 @@
 id: 70c06f31-0b95-4362-8b4f-88fb5dede071
 title: Scholia
 desc: ''
-updated: 1614560623247
+updated: 1614787188353
 created: 1614560154058
 ---
 
@@ -60,3 +60,13 @@ https://scholia.toolforge.org/taxon/QID3/compound/QID4 .
 The work on such subaspects has been described in
 https://www.wikidata.org/wiki/Q50813856 for the example of geodata,
 which would probably be a good starting point when considering the effort involved.
+
+
+
+## Other links
+
+https://cthoyt.com/2021/01/23/updating-the-wikidata-integrator.html
+
+A protocol for adding knowledge to Wikidata, a case report.
+https://www.biorxiv.org/content/10.1101/2020.04.05.026336v2.full.pdf
+
