@@ -2,9 +2,16 @@
 id: 8cc0efa2-9fec-490f-836e-57786fbf8439
 title: Web Articles
 desc: ''
-updated: 1611944529008
+updated: 1614934180659
 created: 1610657531129
 ---
+
+# Adding New Literature Sources to the Wikidata Integrator
+
+https://cthoyt.com/2021/01/23/updating-the-wikidata-integrator.html
+
+[[#wikidata|tag.wikidata]]
+
 
 # Maps, the territory, and meta-rationality
 
