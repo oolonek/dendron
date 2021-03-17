@@ -2,7 +2,7 @@
 id: 88a4eedb-0df2-45ad-a790-4fdfd28d1a17
 title: Scripts
 desc: ''
-updated: 1615591109696
+updated: 1615593918205
 created: 1615590768479
 ---
 
@@ -14,3 +14,31 @@ Apperas cool to me at the moment (2021-03-13 00:17) might be full BS.
 - [ ] check for similar plugins using google or wikipedia 
 Make a small project out of this ? 
 To discuss with Daniel.
+
+
+----------
+Some related stuff
+
+https://chrome.google.com/webstore/detail/right-click-search-wikipe/eikmpmafdimllogceehaijmnlndineje
+
+https://chrome.google.com/webstore/detail/wikidata-search/ingjkjibhnkhomomlmlabndfmiaejkpn
+
+https://chrome.google.com/webstore/detail/entity-explosion/bbcffeclligkmfiocanodamdjclgejcn
+
+(the two previous ones are not functional on chromium ...)
+
+
+wikidata
+http://hints.macworld.com/article.php?story=20070528090709539
+
+
+Not exactly what we want here but could worth looking at it in more details
+(VScode plugin)https://github.com/blokhinnv/wikidataqidlabels
+
+Q1 (https://www.wikidata.org/wiki/Q1) Amazing stuff !
+
+Have a look into this API https://www.wikidata.org/w/api.php?action=help&modules=wbsearchentities
+
+
+https://www.digitalocean.com/community/tutorials/how-to-create-your-first-visual-studio-code-extension
+https://medium.com/@sanik.bajracharya/vscode-how-to-create-your-own-extension-pack-483385644c29

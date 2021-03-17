@@ -2,7 +2,7 @@
 id: 253c8cb9-357c-4fd2-a868-eed7233f3ea2
 title: Sparql
 desc: ''
-updated: 1614710602480
+updated: 1615820897650
 created: 1611593110381
 ---
 
@@ -23,6 +23,16 @@ https://w.wiki/zkK
 ## compounds in organisms who have a parent taxon with a given taxon name
 
 https://w.wiki/vo$
+
+## compounds in organisms who have a parent taxon with a given taxon name - grouped and counted 
+
+https://w.wiki/368M
+
+## compounds in organisms who have a parent taxon with a given taxon name - with mf and accurate mass
+
+
+https://w.wiki/36Ki
+
 
 
 ## compounds displaying a found in a taxon property

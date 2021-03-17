@@ -2,7 +2,7 @@
 id: b754d324-bed4-4497-8c13-4dac01c9fb3b
 title: Cscs
 desc: ''
-updated: 1608755865732
+updated: 1615884720600
 created: 1606994034189
 ---
 
@@ -161,7 +161,7 @@ following environment variables:
     export LC_ALL=C.UTF-8
     export LANG=C.UTF-8
 
-##Convert your mass spectral feature table to the .qza format
+## Convert your mass spectral feature table to the .qza format
 
 First, convert the .tsv feature table (GNPS_buckettable.tsv) to a .biom feature table (GNPS_buckettable.biom):
 
@@ -171,7 +171,7 @@ Then convert the .biom feature table (GNPS_buckettable.biom) to a .qza feature t
 
 `qiime tools import --type 'FeatureTable[Frequency]' --input-path PF_selected_feature_table.biom --output-path PF_selected_feature_table.qza`
 
-##Compute the chemical structural and compositional dissimilarity metric for all pairs of samples in your feature table
+## Compute the chemical structural and compositional dissimilarity metric for all pairs of samples in your feature table
 
 To compute the chemical structural and compositional dissimilarity metric for all pairs of samples in your feature table type:
 
@@ -326,3 +326,4 @@ qiime empress community-plot \
     --m-sample-metadata-file sample-metadata.tsv \
     --m-feature-metadata-file feature-data.qza \
     --o-visualization empress-tree.qzv
+

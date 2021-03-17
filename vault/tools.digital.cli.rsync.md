@@ -2,7 +2,7 @@
 id: 904dcb17-3307-4edd-99f9-a5cdd81bc376
 title: Rsync
 desc: ''
-updated: 1612645022798
+updated: 1615905826321
 created: 1609680294356
 ---
 
@@ -58,6 +58,15 @@ rsync -rvz -e 'ssh' --progress "allardp@x2go.epgl-geneve.org:/home/farma.unige.c
 rsync -rvz -e 'ssh' --progress "allardp@x2go.epgl-geneve.org:/home/farma.unige.ch/allardp/lotusProcessor/data/interim/tables/4_analysed/platinum.tsv.gz" ./ 
 
 rsync -rvz -e 'ssh' --progress "allardp@x2go.epgl-geneve.org:/home/farma.unige.ch/allardp/lotusProcessor/data/processed/lotus.sqlite" ./ 
+
+rsync -rvz -e 'ssh' --progress "allardp@x2go.epgl-geneve.org:/home/farma.unige.ch/allardp/Documents/Toy_Dataset_MN/GNPS_output_Toy_Dataset_MN/cscs_PCoA.qzv" ./ 
+
+
+rsync -rvz -e 'ssh' --progress "allardp@x2go.epgl-geneve.org:/home/farma.unige.ch/allardp/Documents/PF_GNP3/GNPS_output_PF_GNP3/feature_table_for_biom.tsv" ./ 
+
+
+
+
 ```
 
 
