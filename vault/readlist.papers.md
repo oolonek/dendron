@@ -2,7 +2,7 @@
 id: 8a627ba7-8b8e-483a-aaed-5142f455b602
 title: Papers
 desc: ''
-updated: 1614934143503
+updated: 1616999507424
 created: 1610194509817
 ---
 
@@ -12,6 +12,13 @@ created: 1610194509817
 
 This is a dump.
 Entries here should be sent to their respective dendron notes when treated.
+
+Monday 29 March 2021
+
+# First known gene transfer from plant to insect identified
+
+https://www.nature.com/articles/d41586-021-00782-w
+
 
 
 Friday 05 March 2021

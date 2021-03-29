@@ -2,7 +2,7 @@
 id: 4ae7e2f5-d970-4485-9554-380bbab7a1bd
 title: Sed_bash
 desc: ''
-updated: 1611680757583
+updated: 1616339054310
 created: 1609604978319
 ---
 
@@ -64,3 +64,6 @@ to trouble shoot use the follwoing line to be sure of what exactly you take as i
 fswatch -0 ./mendeley_output/ | xargs -0 -n1 -I{} echo "{}"
 ```
 
+## quick replace in text file
+
+`sed -i 's/original/new/g' file.txt`ze

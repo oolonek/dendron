@@ -2,7 +2,7 @@
 id: bff5af22-0edd-49e2-b067-5809af16e454
 title: Pf
 desc: ''
-updated: 1615964230389
+updated: 1616080924669
 created: 1615882210535
 ---
 
@@ -45,6 +45,10 @@ To compute the chemical structural and compositional dissimilarity metric for al
 
 'nohup bash -c 'time qiime cscs cscs --p-css-edges networkedges_selfloop/31a1340378cd46d7b9f5ebf8afbb2565..selfloop --i-features feature_table.qza --p-cosine-threshold 0.7 --p-normalization --p-no-weighted --p-cpus 40 --o-distance-matrix cscs_distance_matrix_unweighed.qza''
 
+nohup bash -c 'time qiime cscs cscs --p-css-edges networkedges_selfloop/3466497461974198a9ab8c9463d05b53..selfloop --i-features feature_table.qza --p-cosine-threshold 0.7 --p-normalization --p-no-weighted --p-cpus 40 --o-distance-matrix cscs_distance_matrix_unweighed.qza'
+
+nohup bash -c 'time qiime cscs cscs --p-css-edges networkedges_selfloop/3466497461974198a9ab8c9463d05b53..selfloop --i-features feature_table.qza --p-cosine-threshold 0.7 --p-normalization --p-cpus 40 --o-distance-matrix cscs_distance_matrix.qza'
+
 
 Visualize the chemical structural and compositional dissimilarity in interactive PCoA space
 To create PCos from the chemical structural and compositional dissimilarity matrix type:
@@ -70,4 +74,7 @@ To visualize the interactive PCoA type:
                          Weight CSCS by feature intensity      [default: True]
 
 
-                         
+## Qemistree dataset
+
+https://gnps.ucsd.edu/ProteoSAFe/status.jsp?task=044e981ff0d84246ae5c91ef3db643a8
+
