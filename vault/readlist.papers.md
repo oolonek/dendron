@@ -2,7 +2,7 @@
 id: 8a627ba7-8b8e-483a-aaed-5142f455b602
 title: Papers
 desc: ''
-updated: 1616999507424
+updated: 1616999740488
 created: 1610194509817
 ---
 
@@ -14,6 +14,14 @@ This is a dump.
 Entries here should be sent to their respective dendron notes when treated.
 
 Monday 29 March 2021
+
+# Capturing scientific knowledge in computable form
+
+https://biofactoid.org
+
+https://www.biorxiv.org/content/10.1101/2021.03.10.382333v1
+
+
 
 # First known gene transfer from plant to insect identified
 
