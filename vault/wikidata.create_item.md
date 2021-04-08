@@ -43,7 +43,8 @@ You can check if your organism name is correctly spelled using the Global Names 
 
 Alternatively, you can use [gnfinder](https://github.com/gnames/gnfinder) in your command line interface to check for the spelling of your organism string.
  
-```echo "Trigonostemion cherrieri" | gnfinder find -c -l eng
+```
+echo "Trigonostemion cherrieri" | gnfinder find -c -l eng
 
 {
   "metadata": {
