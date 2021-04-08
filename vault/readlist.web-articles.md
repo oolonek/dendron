@@ -2,9 +2,14 @@
 id: 8cc0efa2-9fec-490f-836e-57786fbf8439
 title: Web Articles
 desc: ''
-updated: 1614934180659
+updated: 1617777292059
 created: 1610657531129
 ---
+
+# COMPASS Pathways Is Trying to Patent Psilocybin for More Mental Health Conditions Than You Can Name
+
+https://www.psymposia.com/magazine/compass-pathways-is-trying-to-patent-psilocybin-for-more-mental-health-conditions-than-you-can-name/?mc_cid=1bb7bcbd03&mc_eid=0ace6c7a40
+
 
 # Adding New Literature Sources to the Wikidata Integrator
 
