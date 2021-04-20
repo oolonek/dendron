@@ -2,7 +2,7 @@
 id: 9fb6aa48-201e-40e7-9863-ff6f587cf520
 title: Taskwarrior
 desc: ''
-updated: 1617978601287
+updated: 1618837587233
 created: 1617783155898
 ---
 
@@ -38,4 +38,35 @@ timew summary :id
 timew modify end @4 "2021-04-09"T14:30:00
 
 
+## alternatives
 
+https://traggo.net/
+
+
+
+
+# Calendars
+
+Peak into https://khal.readthedocs.io/en/latest/usage.html
+
+https://gitlab.com/BlackEdder/caldavwarrior
+
+Life Calendar Swift coded dont lnow how to install https://github.com/wvdk/Life-Calendar
+
+https://github.com/serhii-londar/open-source-mac-os-apps
+
+
+Monday 19 April 2021
+
+Trying to sync calendar app to khal
+
+https://forum.magicmirror.builders/topic/1980/synchronizing-private-icloud-calendar-with-magicmirror-a-workaround
+
+https://dianne.skoll.ca/projects/remind/
+
+https://inthe.am/
+
+
+https://useplaintext.email/#why-plaintext
+
+(fell in a rabithole)
