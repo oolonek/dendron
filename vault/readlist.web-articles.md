@@ -2,9 +2,15 @@
 id: 8cc0efa2-9fec-490f-836e-57786fbf8439
 title: Web Articles
 desc: ''
-updated: 1617777292059
+updated: 1619012811919
 created: 1610657531129
 ---
+2021.04.21
+
+# Dining Philosophers problem
+
+
+https://en.wikipedia.org/wiki/Dining_philosophers_problem
 
 # COMPASS Pathways Is Trying to Patent Psilocybin for More Mental Health Conditions Than You Can Name
 

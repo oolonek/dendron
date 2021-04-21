@@ -2,7 +2,7 @@
 id: 8a627ba7-8b8e-483a-aaed-5142f455b602
 title: Papers
 desc: ''
-updated: 1618941040462
+updated: 1618998323542
 created: 1610194509817
 ---
 
@@ -157,3 +157,7 @@ https://blog.esciencecenter.nl/build-your-own-mass-spectrometry-analysis-pipelin
 # Chemical graph generators
 https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008504
 
+
+
+
+This resource represents an important advancement in the design and deployment of a comprehensive and collaborative natural products knowledge base.
