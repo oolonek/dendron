@@ -2,7 +2,7 @@
 id: 9fb6aa48-201e-40e7-9863-ff6f587cf520
 title: Taskwarrior
 desc: ''
-updated: 1618837587233
+updated: 1619630049367
 created: 1617783155898
 ---
 
@@ -70,3 +70,11 @@ https://inthe.am/
 https://useplaintext.email/#why-plaintext
 
 (fell in a rabithole)
+
+
+# Taskserver 
+
+
+The steup guidelines 
+
+https://gothenburgbitfactory.github.io/taskserver-setup/
