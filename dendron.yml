@@ -26,8 +26,8 @@ site:
     siteUrl: "https://oolonek.github.io/"
     siteProtocol: https
     usePrettyRefs: true
-    gh_edit_repository: https://github.com/oolonek/dendron
-    gh_edit_branch: main
+    gh_edit_repository: 'https://github.com/oolonek/dendron'
+    #gh_edit_branch: main
     title: grndstt's dendron
     author: "grndstt"
     ga_tracking: G-Q7CCXNMLRB
