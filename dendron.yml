@@ -24,10 +24,11 @@ site:
     siteRootDir: docs
     logo: "vault/assets/images/network-5572119__340.png"
     siteUrl: "https://oolonek.github.io/"
+    siteLastModified: true
     siteProtocol: https
     usePrettyRefs: true
     gh_edit_link: true
-    gh_edit_link_text: "Edit this page on Github"
+    gh_edit_link_text: "Click here to edit this page on Github !"
     gh_edit_repository: "https://github.com/oolonek/dendron"
     gh_edit_branch: "main"
     gh_edit_view_mode: "edit"
