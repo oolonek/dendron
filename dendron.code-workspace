@@ -6,6 +6,7 @@
     ],
     "settings": {
         "dendron.rootDir": ".",
+        "dendron.defaultLookupCreateBehavior": "selection2link",
         "files.autoSave": "onFocusChange",
         "pasteImage.path": "${currentFileDir}/assets/images",
         "pasteImage.prefix": "/",
