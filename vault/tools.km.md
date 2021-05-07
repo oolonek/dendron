@@ -2,7 +2,7 @@
 id: ec8d25e9-410e-4e72-95ba-416ab32c823a
 title: Km
 desc: ''
-updated: 1620242868111
+updated: 1620318429830
 created: 1613072506583
 ---
 
@@ -30,4 +30,9 @@ https://graphdb.ontotext.com/free/devhub/ontologies.html?utm_campaign=GraphDB&ut
 # Semantic markdown
 
 http://blog.sparna.fr/2020/02/20/semantic-markdown/
+
+
+# INDRA labs
+
+https://indralab.github.io/
 
