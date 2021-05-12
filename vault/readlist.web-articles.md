@@ -2,9 +2,19 @@
 id: 8cc0efa2-9fec-490f-836e-57786fbf8439
 title: Web Articles
 desc: ''
-updated: 1619012811919
+updated: 1620709170642
 created: 1610657531129
 ---
+
+Tuesday 11 May 2021
+
+# The chemist of evolution
+
+Otto Gottlieb associated the structural complexity of substances with the development plants and their environment
+
+https://revistapesquisa.fapesp.br/en/the-chemist-of-evolution/
+
+
 2021.04.21
 
 # Dining Philosophers problem

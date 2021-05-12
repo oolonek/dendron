@@ -2,7 +2,7 @@
 id: 8a627ba7-8b8e-483a-aaed-5142f455b602
 title: Papers
 desc: ''
-updated: 1618998323542
+updated: 1620709122363
 created: 1610194509817
 ---
 
@@ -12,6 +12,12 @@ created: 1610194509817
 
 This is a dump.
 Entries here should be sent to their respective dendron notes when treated.
+
+Tuesday 11 May 2021
+
+# Plant scientists’ research attention is skewed towards colourful, conspicuous and broadly distributed flowers
+
+https://www.nature.com/articles/s41477-021-00912-2
 
 
 Tuesday 20 April 2021
