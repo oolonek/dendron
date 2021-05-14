@@ -2,7 +2,7 @@
 id: 904dcb17-3307-4edd-99f9-a5cdd81bc376
 title: Rsync
 desc: ''
-updated: 1615905826321
+updated: 1621002319210
 created: 1609680294356
 ---
 
@@ -30,7 +30,11 @@ rsync -rvz -e 'ssh' --progress ./ allardp@x2go.epgl-geneve.org:/home/farma.unige
 ```bash
 rsync -rvz -e 'ssh' --progress ./opennpdb_tofrag allardp@baobab2.unige.ch:/home/allardp/data_to_frag/opennpdb/
 rsync -rvz -e 'ssh' --progress ./ allardp@baobab2.unige.ch:/home/allardp/bash_files/opennpdb_bash
-rsync -rvz -e 'ssh -p 80' --progress ./is_fragmentation allardp@x2go.epgl-geneve.org:/home/EPGL.UNIGE.LOCAL/allardp/test_rsync
+
+rsync -rvz -e 'ssh' --progress ./ allardp@baobab2.hpc.unige.ch:/home/allardp/bash_files/lotus_bash
+rsync -rvz -e 'ssh' --progress ./ allardp@baobab2.hpc.unige.ch:/home/allardp/data_to_frag/lotus/
+
+
 ```
 
 
