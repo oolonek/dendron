@@ -2,9 +2,18 @@
 id: ec8d25e9-410e-4e72-95ba-416ab32c823a
 title: Km
 desc: ''
-updated: 1620318429830
+updated: 1621279605979
 created: 1613072506583
 ---
+
+# Tarql
+
+http://tarql.github.io/
+
+SPARQL for Tables: Turn CSV into RDF using SPARQL syntax
+
+
+
 
 
 https://knotation.org/
@@ -36,3 +45,7 @@ http://blog.sparna.fr/2020/02/20/semantic-markdown/
 
 https://indralab.github.io/
 
+
+# Tiago Lubiana
+
+https://pointstodots.wordpress.com/2021/05/15/intro/
