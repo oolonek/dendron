@@ -2,7 +2,7 @@
 id: 8a627ba7-8b8e-483a-aaed-5142f455b602
 title: Papers
 desc: ''
-updated: 1620709122363
+updated: 1621971180592
 created: 1610194509817
 ---
 
@@ -12,6 +12,46 @@ created: 1610194509817
 
 This is a dump.
 Entries here should be sent to their respective dendron notes when treated.
+
+Tuesday 25 May 2021
+
+
+# Identifying molecules as biosignatures with assembly theory and mass spectrometry
+
+https://www.nature.com/articles/s41467-021-23258-x
+> 
+> The search for alien life is hard because we do not know what signatures are unique to life. We show why complex molecules found in high abundance are universal biosignatures and demonstrate the first intrinsic experimentally tractable measure of molecular complexity, called the molecular assembly index (MA). To do this we calculate the complexity of several million molecules and validate that their complexity can be experimentally determined by mass spectrometry. This approach allows us to identify molecular biosignatures from a set of diverse samples from around the world, outer space, and the laboratory, demonstrating it is possible to build a life detection experiment based on MA that could be deployed to extraterrestrial locations, and used as a complexity scale to quantify constraints needed to direct prebiotically plausible processes in the laboratory. Such an approach is vital for finding life elsewhere in the universe or creating de-novo life in the lab.
+
+# Supervised topic modeling for predicting molecular substructure from mass spectrometry [version 1; peer review: awaiting peer review]
+
+https://f1000research.com/articles/10-403
+
+> Small-molecule metabolites are principal actors in myriad phenomena
+> across biochemistry and serve as an important source of biomarkers
+> and drug candidates. Given a sample of unknown composition,
+> identifying the metabolites present is difficult given the large number
+> of small molecules both known and yet to be discovered. Even for
+> biofluids such as human blood, building reliable ways of identifying
+> biomarkers is challenging. A workhorse method for characterizing
+> individual molecules in such untargeted metabolomics studies is
+> tandem mass spectrometry (MS/MS). MS/MS spectra provide rich
+> information about chemical composition. However, structural
+> characterization from spectra corresponding to unknown molecules
+> remains a bottleneck in metabolomics. Current methods often rely on
+> matching to pre-existing databases in one form or another.  Here we
+> develop a preprocessing scheme and supervised topic modeling
+> approach to identify modular groups of spectrum fragments and
+> neutral losses corresponding to chemical substructures using labeled
+> latent Dirichlet allocation (LLDA) to map spectrum features to known
+> chemical structures. These structures appear in new unknown spectra
+> and can be predicted. We find that LLDA is an interpretable and
+> reliable method for structure prediction from MS/MS spectra.
+> Specifically, the LLDA approach has the following advantages: (a)
+> molecular topics are interpretable; (b) A practitioner can select any set
+> of chemical structure labels relevant to their problem; (c ) LLDA
+> performs well and can exceed the performance of other methods in
+> predicting substructures in novel contexts.
+
 
 Tuesday 11 May 2021
 
