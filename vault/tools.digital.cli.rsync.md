@@ -2,7 +2,7 @@
 id: 904dcb17-3307-4edd-99f9-a5cdd81bc376
 title: Rsync
 desc: ''
-updated: 1621002319210
+updated: 1622105110928
 created: 1609680294356
 ---
 
@@ -82,4 +82,8 @@ rsync -rvz -e 'ssh' --progress allardp@baobab2.unige.ch:/home/allardp/CFM_result
 rsync -rvz -e 'ssh' --progress allardp@baobab2.unige.ch:/home/allardp/CFM_results/coconut ./ --apend
 ```
 
+# metabomaps > local 
 
+
+
+rsync -rvz -e 'ssh' --progress --rsync-path="sudo rsync" ~/Downloads/wetransfer-27d788/210523_lotus_map4_2D.js pma@metabomaps.nprod.net:/srv/metabo-store/tmap

@@ -2,7 +2,7 @@
 id: 8a627ba7-8b8e-483a-aaed-5142f455b602
 title: Papers
 desc: ''
-updated: 1621971180592
+updated: 1622142940057
 created: 1610194509817
 ---
 
@@ -12,6 +12,13 @@ created: 1610194509817
 
 This is a dump.
 Entries here should be sent to their respective dendron notes when treated.
+
+
+Thursday 27 May 2021
+
+# Multiomic Big Data Analysis Challenges: Increasing Confidence in the Interpretation of Artificial Intelligence Assessments
+https://pubs.acs.org/doi/abs/10.1021/acs.analchem.0c04850
+
 
 Tuesday 25 May 2021
 
