@@ -2,9 +2,18 @@
 id: e2d9e698-bb66-454a-96de-ef0e8bbecd1e
 title: Eln
 desc: ''
-updated: 1611341467242
+updated: 1622550606264
 created: 1611247430597
 ---
+
+# https://www.mylabbook.org/index.php
+
+Check in to drupal
+# Digital Lab Notebook
+ 
+http://culturalheritageimaging.org/Technologies/Digital_Lab_Notebook/index.html
+
+
 
 # Electronic Lab Notebooks Ressources
 
@@ -55,6 +64,10 @@ PREFIX=/home/farma.unige.ch/senaite/miniconda2
 
 
 (senaite) senaite@FARMA-NONMEM:~/Plone-4.3.19-UnifiedInstaller$ ./install.sh standalone --target=/home/farma.unige.ch/senaite --instance=senaitelims --password=admin
+
+
+
+SENAITE is a beautiful trigonal, oil-green to greenish black crystal, with almost the hardness of a diamond. Although the crystal is described with a complex formula, it still has clear and straight shapes. Therefore, it reflects nicely the complexity of the LIMS, while providing a modern, intuitive and friendly UI/ UX.
 
 
 

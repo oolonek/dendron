@@ -2,7 +2,7 @@
 id: 8a627ba7-8b8e-483a-aaed-5142f455b602
 title: Papers
 desc: ''
-updated: 1622142940057
+updated: 1622449259963
 created: 1610194509817
 ---
 
@@ -12,6 +12,13 @@ created: 1610194509817
 
 This is a dump.
 Entries here should be sent to their respective dendron notes when treated.
+
+
+Monday 31 May 2021
+
+# A deep generative model enables automated structure elucidation of novel psychoactive substances
+
+https://chemrxiv.org/articles/preprint/A_Deep_Generative_Model_Enables_Automated_Structure_Elucidation_of_Novel_Psychoactive_Substances/14644854/1
 
 
 Thursday 27 May 2021

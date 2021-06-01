@@ -2,7 +2,7 @@
 id: 904dcb17-3307-4edd-99f9-a5cdd81bc376
 title: Rsync
 desc: ''
-updated: 1622105110928
+updated: 1622475510869
 created: 1609680294356
 ---
 
@@ -33,6 +33,12 @@ rsync -rvz -e 'ssh' --progress ./ allardp@baobab2.unige.ch:/home/allardp/bash_fi
 
 rsync -rvz -e 'ssh' --progress ./ allardp@baobab2.hpc.unige.ch:/home/allardp/bash_files/lotus_bash
 rsync -rvz -e 'ssh' --progress ./ allardp@baobab2.hpc.unige.ch:/home/allardp/data_to_frag/lotus/
+
+
+rsync -rvz -e 'ssh' --progress ./ allardp@baobab2.hpc.unige.ch:/home/allardp/is_fragmentation/lotus_data/
+
+
+
 
 
 ```
@@ -67,6 +73,7 @@ rsync -rvz -e 'ssh' --progress "allardp@x2go.epgl-geneve.org:/home/farma.unige.c
 
 
 rsync -rvz -e 'ssh' --progress "allardp@x2go.epgl-geneve.org:/home/farma.unige.ch/allardp/Documents/PF_GNP3/GNPS_output_PF_GNP3/feature_table_for_biom.tsv" ./ 
+
 
 
 

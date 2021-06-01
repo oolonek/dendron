@@ -2,11 +2,15 @@
 id: 99ce9016-5209-48d5-850c-046a18555453
 title: Git
 desc: ''
-updated: 1613470122529
+updated: 1622552488521
 created: 1609525494924
 stub: true
 ---
+# Nice intro
 
+Looks good for tuto and convince of git adoption Version Control with Git
+
+https://carpentries-incubator.github.io/git-novice-branch-pr/
 # Get info of the git remote
 
 `git config --get remote.origin.url`
