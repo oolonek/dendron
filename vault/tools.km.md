@@ -2,9 +2,14 @@
 id: ec8d25e9-410e-4e72-95ba-416ab32c823a
 title: Km
 desc: ''
-updated: 1621545326721
+updated: 1622668499219
 created: 1613072506583
 ---
+
+# DBpedia
+
+check in https://fr.wikipedia.org/wiki/DBpedia
+
 
 # Tarql
 

@@ -2,7 +2,7 @@
 id: 11533f87-a3c8-4d18-8d4e-4aafdc599613
 title: Isfrag
 desc: ''
-updated: 1621006155751
+updated: 1622641264797
 created: 1621006125043
 ---
 
@@ -68,6 +68,7 @@ Coconut 384222 .log files
 ## We might eventually need to move all files from subfolders recursively to a superior folder
 
 find ./bacasable -type f -print0 | xargs -0 mv -t ./bacasable
+
 
 
 find ./results_coconut -type f -print0 | xargs -0 mv -t ./results_coconut

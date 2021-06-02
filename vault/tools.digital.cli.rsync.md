@@ -2,7 +2,7 @@
 id: 904dcb17-3307-4edd-99f9-a5cdd81bc376
 title: Rsync
 desc: ''
-updated: 1622475510869
+updated: 1622641273843
 created: 1609680294356
 ---
 
@@ -43,7 +43,7 @@ rsync -rvz -e 'ssh' --progress ./ allardp@baobab2.hpc.unige.ch:/home/allardp/is_
 
 ```
 
-
+-
 
 # x2go > local 
 
