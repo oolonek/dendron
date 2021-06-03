@@ -2,7 +2,7 @@
 id: 9649a979-d0bb-49d5-aabe-d91ab67b1912
 title: Webinar
 desc: ''
-updated: 1622649062110
+updated: 1622731603422
 created: 1622646028008
 ---
 
@@ -92,4 +92,11 @@ Eccenca  mastering complexity https://eccenca.com/
 
 These are screenshots of the presentation whish was free to attend and public.
 If you own them and don't want them online please contact me.
+
+
+
+## Videos
+
+
+Over here https://www.youtube.com/channel/UCXWXQfaPgZ4EQIxO2KucKOQ
 
