@@ -2,7 +2,7 @@
 id: 904dcb17-3307-4edd-99f9-a5cdd81bc376
 title: Rsync
 desc: ''
-updated: 1622641273843
+updated: 1623219490321
 created: 1609680294356
 ---
 
@@ -21,8 +21,8 @@ rsync -rvz -e 'ssh' --progress ./ allardp@10.25.88.39:/home/EPGL.UNIGE.LOCAL/all
 rsync -rvz -e 'ssh' --progress ./ allardp@10.25.88.39:/home/EPGL.UNIGE.LOCAL/allardp/opennaturalproductsdb/data/interim/tables/3_curated/
 
 rsync -rvz -e 'ssh' --progress ./ allardp@x2go.epgl-geneve.org:/home/farma.unige.ch/allardp/Desktop/FARMAnetwork/RECHERCHE/COMMON\ FASIE-FATHO/PMA/Ubuntu_VM_img/ISDB_DNP/results
-
-
+rsync -rvz -e 'ssh' --progress ./ allardp@x2go.epgl-geneve.org:/home/farma.unige.ch/allardp/Desktop/FARMAnetwork/RECHERCHE/COMMON\ FASIE-FATHO/PF_project
+rsync -rvz -e 'ssh' --progress ./ allardp@x2go.epgl-geneve.org:/home/farma.unige.ch/allardp/is_fragmentation/lotus_data
 ```
 
 # local > baobab

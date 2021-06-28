@@ -2,7 +2,7 @@
 id: 253c8cb9-357c-4fd2-a868-eed7233f3ea2
 title: Sparql
 desc: ''
-updated: 1615820897650
+updated: 1624633934500
 created: 1611593110381
 ---
 
@@ -181,4 +181,10 @@ https://w.wiki/33WG
 All the biological taxa where the chemical compound erysodine is found in.
 https://w.wiki/33WA
 
+
+# all compounds produced by a given taxon or group of taxa (including children taxa) which have a described bioactivity : 
+
+https://w.wiki/3YMo
+
+resumed as treemap https://w.wiki/3YMt
 

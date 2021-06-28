@@ -2,7 +2,7 @@
 id: 8a627ba7-8b8e-483a-aaed-5142f455b602
 title: Papers
 desc: ''
-updated: 1622449259963
+updated: 1623680833334
 created: 1610194509817
 ---
 
@@ -13,6 +13,13 @@ created: 1610194509817
 This is a dump.
 Entries here should be sent to their respective dendron notes when treated.
 
+
+
+Monday 14 June 2021
+
+# Functional biology in its natural context: A search for emergent simplicity
+
+https://elifesciences.org/articles/67646
 
 Monday 31 May 2021
 

@@ -1,6 +1,7 @@
 version: 1
 vaults:
-    - fsPath: vault
+    -
+        fsPath: vault
 mermaid: true
 site:
     copyAssets: true
@@ -22,16 +23,24 @@ site:
         - philosophy
         - garage
     siteRootDir: docs
-    logo: "vault/assets/images/network-5572119__340.png"
-    siteUrl: "https://oolonek.github.io/"
+    logo: vault/assets/images/network-5572119__340.png
+    siteUrl: 'https://oolonek.github.io/'
     siteLastModified: true
     siteProtocol: https
     usePrettyRefs: true
     gh_edit_link: true
-    gh_edit_link_text: "Click here to edit this page on Github !"
-    gh_edit_repository: "https://github.com/oolonek/dendron"
-    gh_edit_branch: "main"
-    gh_edit_view_mode: "edit"
+    gh_edit_link_text: Click here to edit this page on Github !
+    gh_edit_repository: 'https://github.com/oolonek/dendron'
+    gh_edit_branch: main
+    gh_edit_view_mode: edit
     title: grndstt's dendron
-    author: "grndstt"
+    author: grndstt
     ga_tracking: G-Q7CCXNMLRB
+initializeRemoteVaults: true
+journal:
+    dailyDomain: daily
+    name: journal
+    dateFormat: y.MM.dd
+    addBehavior: childOfDomain
+    firstDayOfWeek: 1
+dendronVersion: 0.47.1
