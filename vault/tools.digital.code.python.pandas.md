@@ -75,5 +75,26 @@ df.columns = 'File heat Observations'.split()
 
 ```
 
+# Extract digits from a string 
+
+https://stackoverflow.com/a/37683738
 
 
+```python
+df.A.str.extract('(\d+)')
+```
+
+# Create multiples columns values conditionally using np.where
+https://stackoverflow.com/a/19913845
+
+```python
+df = pd.DataFrame({'Type':list('ABBC'), 'Set':list('ZZXY')})
+conditions = [
+    (df['Set'] == 'Z') & (df['Type'] == 'A'),
+    (df['Set'] == 'Z') & (df['Type'] == 'B'),
+    (df['Type'] == 'B')]
+choices = ['yellow', 'blue', 'purple']
+df['color'] = np.select(conditions, choices, default='black')
+print(df)
+
+```
