@@ -98,3 +98,8 @@ df['color'] = np.select(conditions, choices, default='black')
 print(df)
 
 ```
+
+
+pklaceholder
+
+
