@@ -2,9 +2,21 @@
 id: ec378025-0a54-4e50-b3c6-4def62b3a82a
 title: Time
 desc: ''
-updated: 1611865266357
+updated: 1628004600601
 created: 1609702188544
 ---
+
+Tuesday 03 August 2021
+
+> Most of us use our calendars all wrong: we don't schedule work; we schedule interruptions. Meetings get scheduled. Phone calls get scheduled. Doctor appointments get scheduled. You know what often doesn't get scheduled? Real work. All those other things are distractions. Often, they're other people's work. But they get dedicated blocks of time, and your real work becomes an orphan.
+
+Peek into time blocking.
+
+As Roman Stoic philosopher Seneca once wrote:
+
+> “People are frugal in guarding their personal property; but as soon as it comes to squandering time, they are most wasteful of the one thing in which it is right to be stingy.”
+
+----
 
 
 Having a look at the MyTime plugin (https://github.com/codicelq/mytime) because I wanted a time tracking solution and that this is currectly lacking from the excellent Todo+ plugin.

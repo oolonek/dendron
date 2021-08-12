@@ -2,7 +2,7 @@
 id: 9fb6aa48-201e-40e7-9863-ff6f587cf520
 title: Taskwarrior
 desc: ''
-updated: 1619630049367
+updated: 1628012250534
 created: 1617783155898
 ---
 
@@ -71,6 +71,11 @@ https://useplaintext.email/#why-plaintext
 
 (fell in a rabithole)
 
+Tuesday 03 August 2021
+
+🖐️ Fell in another rabithole while trying to set up the calcurse-caldav and vsyncserver apps 
+Finally plain iCal app might still me the most convenient solution 
+
 
 # Taskserver 
 
@@ -78,3 +83,5 @@ https://useplaintext.email/#why-plaintext
 The steup guidelines 
 
 https://gothenburgbitfactory.github.io/taskserver-setup/
+
+
