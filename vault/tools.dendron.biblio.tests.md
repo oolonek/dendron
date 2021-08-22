@@ -2,10 +2,10 @@
 id: 531ec358-d553-4dc1-ae5f-95b0f2bd3e36
 title: Tests
 desc: ''
-updated: 1610874299058
+updated: 1629590473910
 created: 1610451373351
 bibliography:
-  - /Users/pma/Documents/library_red.bib
+- '/Users/pma/Documents/library_red.bib'
 ---
 
 # Bib integration tests in dendron
@@ -53,7 +53,7 @@ Here should appear the refs
 <p><span class="citation" data-cites="Blunt2009">@Blunt2009</span></p>
 
 ```
-
+@Blunt2009
 
 
 ### 2021-01-12 15:32
@@ -77,6 +77,9 @@ Beware of the space character before the s !
 
 @Brown2012a
 
+@oolonek
+
+@Brown2012a
 
 
 @Gerwick2012a
@@ -140,3 +143,4 @@ bibliography: /Users/pma/Documents/library_red.bib
 </html>
 
 ```
+

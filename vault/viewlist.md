@@ -2,9 +2,16 @@
 id: 6d27ab67-59cd-43c1-ba48-974d88ab3b71
 title: Viewlist
 desc: ''
-updated: 1612771340418
+updated: 1629354931357
 created: 1610469913749
 ---
+Jeudi 19 Août 2021
+
+On the EarthBioGenome initiative https://www.youtube.com/watch?v=gptP4FZHZrE&list=PLpCH1XIO3lYtRELTupGHOfrbylNlPhPKR
+
+
+https://www.earthbiogenome.org/
+
 
 2021-02-08 08:29
 https://www.youtube.com/watch?v=kqSzLo9fenk
