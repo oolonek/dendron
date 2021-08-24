@@ -118,9 +118,9 @@ We repeat for the private repo
 
 
 All seems to be set up correctly
+[[
 
-
-
+|mapp.fundings.swissbiodata]]
 Now we will vault add the dendron-ws-public as a remote vault in the private ws
 
 this should be done at the vault level (in the dendron-private-vault)
